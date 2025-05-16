@@ -22,7 +22,7 @@ import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 import MotionDivDownToUp from "../components/animation/MotionDivDownToUp";
 import TypewriterComponent from "../components/animation/TypeWriter";
 import ButtonWithIconNavbar from "../components/interactives/ButtonWithIconNavbar";
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import imgTestimonial1 from "../assets/imgs/testimonialsHero/imgTestimonial1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonialsHero/imgTestimonial2.webp";
@@ -605,31 +605,35 @@ const content = {
       },
     },
     steps: {
-      miniTag: "Nosso Passo a Passo",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
+      subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Primeiro contato",
+          cardDescription:
+            "Conversamos com você para entender sua necessidade — seja tenda, obra ou projeto urbano.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Planejamento da solução",
+          cardDescription:
+            "Analisamos o local, prazos e objetivos para oferecer a melhor solução técnica e personalizada.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Proposta e aprovação",
+          cardDescription:
+            "Apresentamos a proposta detalhada com valores, prazos e condições para sua aprovação.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Execução do projeto",
+          cardDescription:
+            "Iniciamos a entrega: montagem da tenda ou execução da obra com qualidade, segurança e pontualidade.",
         },
       },
     },
