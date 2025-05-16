@@ -265,15 +265,12 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
+        title: "Conecte-se conosco",
+        subtitle: "A_Definir",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Penal e Processual Penal, com insights também sobre Direito de
-            Família, Trabalhista e Contratual. Não perca a chance de transformar
-            conhecimento em poder para proteger seus direitos.
+            Acompanhe nossas redes e fique por dentro de novidades e projetos da
+            Ramom Tendas.
           </p>
         ),
       },

@@ -39,7 +39,7 @@ export default function AboutSocial() {
               className="text-center"
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
-              sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
+              // sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               color="dark"
               type="article"
             />
