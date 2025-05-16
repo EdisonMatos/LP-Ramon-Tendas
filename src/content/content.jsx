@@ -1,5 +1,5 @@
 import links from "./links";
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import logoDark from "../assets/imgs/logo/logoDark.webp";
 import aboutImg1 from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
@@ -189,159 +189,52 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Pessoas em negociação",
+        alt: "Imagem profissional de escritório/advogado(a)",
       },
-      imagemMobile: {
-        img: aboutImgMobile1,
-        alt: "Pessoas em negociação",
-      },
-      miniTag: "QUEM É A RAMOM TENDAS",
-      title: "Nossa história",
-      subtitle:
-        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção.",
-      paragraph: (
-        <div>
-          <div>
-            Com uma história marcada por dedicação e compromisso,{" "}
-            <i>
-              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
-            </i>{" "}
-            se destaca como referência no cenário jurídico.
-            <br />
-            Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>
-            , pai e filho, nosso escritório e nossa advocacia combinam a
-            sabedoria da experiência com a energia da inovação, criando uma
-            parceria sólida e harmoniosa.
-          </div>
-          buttonModalLabelAbout: "Continuar lendo", modal: (
-          <p>
-            Com uma história marcada por dedicação e compromisso,{" "}
-            <i>
-              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
-            </i>{" "}
-            se destaca como referência no cenário jurídico.
-            <br />
-            <br />
-            Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>
-            , pai e filho, nosso escritório e nossa advocacia combinam a
-            sabedoria da experiência com a energia da inovação, criando uma
-            parceria sólida e harmoniosa.
-            <br />
-            <br />
-            Ao longo dos anos, nos especializamos e construímos parcerias em
-            diversas áreas do direito, incluindo Constitucional, Administrativo,
-            Médico, Cível, do Consumidor, do Trabalho, Previdenciário e
-            Tributário.
-            <br />
-            <br />
-            Nosso objetivo é oferecer soluções jurídicas sob medida, adaptadas
-            às necessidades específicas de cada cliente, seja ele pessoa física
-            ou jurídica.
-            <br />
-            <br />
-            Acreditamos que um relacionamento próximo e de confiança com nossos
-            clientes é essencial para alcançar os melhores resultados. Por isso,
-            nossa equipe se dedica a entender profundamente cada caso, buscando
-            sempre as estratégias mais eficazes e éticas.
-            <br />
-            <br />
-            Além disso, nossa atuação é guiada por valores como integridade,
-            transparência e respeito. Sabemos que cada decisão jurídica pode ter
-            um impacto significativo na vida de nossos clientes, e, por isso,
-            tratamos cada caso com a atenção e o cuidado que ele merece.
-            <br />
-            <br />
-            No{" "}
-            <i>
-              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
-            </i>
-            , você encontrará uma equipe preparada para enfrentar desafios e
-            oferecer soluções práticas e estratégicas. Estamos aqui para ser
-            mais do que seus advogados, queremos ser seus parceiros na busca
-            pela justiça e na proteção dos seus direitos e interesses.
-            <br />
-            <br />
-          </p>
-          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.instagram}
-                label="Siga a gente no Instagram"
-                icon={
-                  <svg
-                    aria-label="Botão para Instagram"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-instagram"
-                  >
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.facebook}
-                label="Siga a gente no Facebook"
-                icon={
-                  <svg
-                    aria-label="Botão para Facebook"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-facebook"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.linkedin}
-                label="Siga a gente no Linkedin"
-                icon={
-                  <svg
-                    aria-label="Botão para Linkedin"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-linkedin"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect width="4" height="12" x="2" y="9" />
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-          </div> */}
-        </div>
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "A_Definir no Instagram",
+      labelFacebook: "A_Definir no Facebook",
+      labelLinkedin: "A_Definir no LinkedIn",
+      labelX: "A_Definir no X",
+      paragraph: <div>A_Definir</div>,
+      buttonModalLabelAbout: "Continuar lendo",
+      modalCtaButton: "Quer saber mais? Clique abaixo 👇",
+      modal: (
+        <p>
+          A_Definir
+          <br />
+          <br />
+          A_Definir
+          <br />
+          <br />
+          A_Definir
+          <br />
+          <br />
+          A_Definir
+          <br />
+          <br />
+        </p>
       ),
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
+
+      // aboutSocial: {
+      //   img: {
+      //     img: aboutSocialImg,
+      //     imgSocial: aboutInstagram,
+      //     alt: `Foto do Instagram do ${infos.name}`,
+      //   },
+      //   miniTag: "A_Definir",
+      //   title: "A_Definir",
+      //   subtitle: "A_Definir",
+      //   paragraph: <p></p>,
+      //   labelInstagram: "A_Definir no Instagram",
+      //   labelFacebook: "A_Definir no Facebook",
+      //   labelLinkedin: "A_Definir no LinkedIn",
+      //   labelX: "A_Definir no X",
+      // },
     },
     team: {
       title: "Nossa Equipe",

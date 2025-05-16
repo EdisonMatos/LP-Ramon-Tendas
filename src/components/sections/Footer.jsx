@@ -143,7 +143,7 @@ function Footer() {
                 <p className="opacity-90">
                   Agradecemos sua visita! Esperamos que em breve você se torne
                   nosso cliente e desfrute de todos os benefícios que
-                  oferecemos. 
+                  oferecemos.
                 </p>
               </MotionDivDownToUp>
 
@@ -227,13 +227,15 @@ function Footer() {
                       <a
                         href={links.socialMedia.x}
                         target="_blank"
-                        aria-label="Link para o Facebook"
+                        aria-label="Link para o X"
                       >
                         <IconButton
-                          ariaLabel="Botão para o Facebook"
+                          ariaLabel="Botão para o X"
                           icon={
                             <svg
                               viewBox="0 0 21.573 19.5"
+                              fill=""
+                              stroke="currentColor"
                               version="1.1"
                               id="svg4"
                               width="20"
@@ -360,8 +362,8 @@ function Footer() {
 
           <div className="text-center w-full phone2:w-[40%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
             <p className="w-full opacity-75">
-              2025 - Dra. Valéria Candal - Todos os direitos reservados Gostaria
-              de ter um site como este? Clique aqui{" "}
+              2025 - Ramom Tendas - Todos os direitos reservados Gostaria de ter
+              um site como este? Clique aqui{" "}
             </p>
             {/* <p>
               <a
