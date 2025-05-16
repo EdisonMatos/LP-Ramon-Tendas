@@ -25,14 +25,18 @@ export default function Numbers() {
 
   return (
     <div
-      className="flex justify-center bg-center bg-cover"
+      className="relative flex justify-center bg-center bg-cover"
       style={{
         backgroundImage: `url(${content.texts.cta.backgroundImg})`,
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+      {/* Camada opaca sobre o fundo */}
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-0" />
+
+      {/* Conteúdo acima da camada escura */}
+      <div className="relative z-10 w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center py-[64px] desktop1:py-[96px] text-white [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
         <div className="flex flex-col items-center w-[90%] desktop1:w-[30%] ">
           <h1 className="text-[72px] font-mainFont leading-[76px] font-bold">
             <MotionDivDownToUp>

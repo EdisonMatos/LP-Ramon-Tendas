@@ -15,31 +15,37 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function CtaWhatsapp() {
   return (
     <div
-      className="bg-left bg-cover desktop1:bg-fixed desktop1:bg-left"
+      className="relative bg-left bg-cover desktop1:bg-fixed desktop1:bg-left"
       style={{
         backgroundImage: `url(${content.texts.cta.backgroundImg})`,
       }}
       id="contact"
     >
-      <SectionArea>
-        
-        <SectionWrapper>
-          <SectionHeader
-            className="text-center"
-            miniTitle={content.texts.cta.miniTag}
-            sectionHeaderTitle={content.texts.cta.title}
-            sectionHeaderSubtitle={content.texts.cta.subtitle}
-            color=""
-          />
-          <Button
-            aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label={content.texts.cta.ctaButtonText}
-            buttonLink={whatsappContactLink}
-            animation
-            icon={<FaWhatsapp size={24} />}
-          />
-        </SectionWrapper>
-      </SectionArea>
+      {/* Camada escura sobre o fundo */}
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-0" />
+
+      {/* Conteúdo acima da camada escura */}
+      <div className="relative z-10">
+        <SectionArea>
+          <SectionWrapper>
+            <SectionHeader
+              className="text-center"
+              miniTitle={content.texts.cta.miniTag}
+              sectionHeaderTitle={content.texts.cta.title}
+              sectionHeaderSubtitle={content.texts.cta.subtitle}
+              color=""
+            />
+            <Button
+              aria-label={content.texts.hero.ctaButtonAriaLabel}
+              label={content.texts.cta.ctaButtonText}
+              buttonLink={`https://wa.me/${links.ctaWhatsapp}`}
+              animation
+              icon={<FaWhatsapp size={24} />}
+            />
+          </SectionWrapper>
+        </SectionArea>
+      </div>
     </div>
   );
 }
+

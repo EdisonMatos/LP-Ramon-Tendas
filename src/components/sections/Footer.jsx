@@ -360,21 +360,20 @@ function Footer() {
 
           <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
 
-          <div className="text-center w-full phone2:w-[40%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
+          <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
             <p className="w-full opacity-75">
-              2025 - Ramom Tendas - Todos os direitos reservados Gostaria de ter
-              um site como este? Clique aqui{" "}
+              2025 - Ramom Tendas - Todos os direitos reservados
             </p>
-            {/* <p>
+            <p>
               <a
                 className="transition hover:underline"
                 target="_blank"
                 href="https://www.paperstreet.com.br"
               >
                 {" "}
-                footerDivulgacaoText{" "}
+                Gostaria de ter um site como este? Clique aqui{" "}
               </a>
-            </p> */}
+            </p>
           </div>
         </SectionWrapper>
       </SectionArea>

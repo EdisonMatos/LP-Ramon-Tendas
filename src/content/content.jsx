@@ -14,7 +14,7 @@ import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
 
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
