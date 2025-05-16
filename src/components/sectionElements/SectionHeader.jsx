@@ -1,3 +1,4 @@
+
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function SectionHeader({
@@ -9,7 +10,7 @@ export default function SectionHeader({
   miniTitle,
   miniTitleSpace,
   color,
-  miniTitleBgColor,
+  miniTitleBgColor = true, // Valor padrão
   miniTitleTextColor,
   usage,
   type,
@@ -19,18 +20,20 @@ export default function SectionHeader({
   marginBottomOption,
   animation = true,
 }) {
+  // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleBgColor = "bg-secondary bg-opacity-5";
     miniTitleTextColor = "text-secondary";
-    titleColor = "text-secondary";
+    titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
   } else {
-    miniTitleBgColor = "bg-lighter bg-opacity-10";
     miniTitleTextColor = "text-lighter";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-black bg-opacity-30";
   }
 
+  // Configurações baseadas no tipo
   if (type === "article") {
     usage = "w-full flex flex-col";
     miniTitleSpace = "w-full flex-start text-left";
@@ -42,15 +45,20 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
+  // Remover o background se miniTitleBgColor for false
+  if (!miniTitleBgColor) {
+    miniTitleBgColor = ""; // Sem classe de background
+  }
+
   const Content = (
     <div className={`${usage} ${className}`}>
       <div>
         <div className={`${miniTitleSpace}`}>
-          {/* <div
-            className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+          <div
+            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
           >
             <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
-          </div> */}
+          </div>
         </div>
         <h1
           className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}

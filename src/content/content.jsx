@@ -634,25 +634,30 @@ const content = {
       },
     },
     faq: {
-      miniTag: "Perguntas Frequentes",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais tipos de eventos vocês atendem?",
+          answer:
+            "Atendemos uma ampla variedade de eventos, incluindo casamentos, aniversários, festas corporativas, feiras, shows e eventos comunitários. Nossas tendas são versáteis e podem ser adaptadas para diferentes ocasiões.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso solicitar um orçamento?",
+          answer:
+            "Para receber um orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem montagem e desmontagem das tendas?",
+          answer:
+            "Sim, nossa equipe especializada realiza tanto a montagem quanto a desmontagem das tendas. O tempo de montagem varia conforme o tamanho e a complexidade do evento, mas garantimos agilidade e segurança em todas as etapas.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Quais são os cuidados necessários com as condições climáticas?",
+          answer:
+            "Nossas tendas são projetadas para oferecer proteção contra sol intenso, chuvas inesperadas e vento forte. No entanto, em condições climáticas extremas, recomendamos avaliar a viabilidade da montagem para garantir a segurança de todos os participantes.",
         },
         question5: {
           question: "A_Definir",

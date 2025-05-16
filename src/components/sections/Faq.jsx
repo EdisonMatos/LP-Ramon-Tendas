@@ -8,7 +8,6 @@ import links from "../../content/links";
 import content from "../../content/content";
 import SectionShapeDiv from "../../components/sectionElements/SectionShapeDiv";
 
-
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function Faq() {
@@ -36,14 +35,14 @@ export default function Faq() {
         </MotionDivDownToUp>
         <MotionDivDownToUp>
           <Paragraphs className="text-center">
-            Para demais dúvidas,{" "}
+            {" "}
             <a
               href={whatsappContactLink}
               target="_blank"
               className="transition text-tertiary hover:underline"
             >
               {" "}
-              fale com nossa equipe clicando aqui.
+              Clique aqui caso tenha mais dúvidas.
             </a>
           </Paragraphs>
         </MotionDivDownToUp>

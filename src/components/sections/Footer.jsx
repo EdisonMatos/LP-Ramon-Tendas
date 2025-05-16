@@ -141,15 +141,15 @@ function Footer() {
               {/* Texto footer */}
               <MotionDivDownToUp>
                 <p className="opacity-90">
-                  "Agradecemos sua visita! Esperamos que em breve você se torne
+                  Agradecemos sua visita! Esperamos que em breve você se torne
                   nosso cliente e desfrute de todos os benefícios que
-                  oferecemos. "
+                  oferecemos. 
                 </p>
               </MotionDivDownToUp>
 
               {/* Ícones redes sociais */}
               <MotionDivDownToUp>
-                <p className="opacity-90">"Siga-nos nas redes Sociais:"</p>
+                <p className="opacity-90">Siga-nos nas redes Sociais:</p>
                 <div className="mt-2 opacity-90">
                   {" "}
                   <div className="flex gap-[10px] items-center">
