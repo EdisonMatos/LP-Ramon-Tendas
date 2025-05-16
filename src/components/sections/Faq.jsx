@@ -39,7 +39,7 @@ export default function Faq() {
             <a
               href={whatsappContactLink}
               target="_blank"
-              className="transition text-tertiary hover:underline"
+              className="transition text-secondary hover:underline"
             >
               {" "}
               Clique aqui caso tenha mais dúvidas.
