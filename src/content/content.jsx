@@ -1,7 +1,7 @@
 import links from "./links";
 import logo from "../assets/imgs/logo/logo.png";
 import logoDark from "../assets/imgs/logo/logoDark.webp";
-import aboutImg1 from "../assets/imgs/about/aboutImg.png";
+import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -188,31 +188,40 @@ const content = {
     },
     about: {
       imagem: {
-        img: aboutImg1,
+        // img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "A_Definir no Instagram",
-      labelFacebook: "A_Definir no Facebook",
-      labelLinkedin: "A_Definir no LinkedIn",
-      labelX: "A_Definir no X",
-      paragraph: <div>A_Definir</div>,
+      miniTag: "QUEM É A RAMOM TENDAS",
+      title: "Nossa história",
+      subtitle:
+        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção. ",
+      paragraph: (
+        <div>
+          Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
+          como uma referência em vendas e fabricação de tendas, além de atuar
+          com excelência em projetos de urbanismo e construção.
+        </div>
+      ),
       buttonModalLabelAbout: "Continuar lendo",
-      modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
-          A_Definir
+          Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
+          como uma referência em vendas e fabricação de tendas, além de atuar
+          com excelência em projetos de urbanismo e construção.
           <br />
           <br />
-          A_Definir
+          Nossa missão é oferecer soluções práticas, duráveis e acessíveis,
+          sempre prezando pela qualidade, agilidade e satisfação do cliente.
           <br />
           <br />
-          A_Definir
+          Nosso diferencial está no atendimento humanizado, no cuidado com cada
+          detalhe e na fé que impulsiona nossos projetos. Acreditamos na
+          intuição, no pensamento positivo e no compromisso com quem confia em
+          nosso trabalho.
           <br />
           <br />
-          A_Definir
+          Cada tenda instalada ou obra concluída representa nosso esforço em ser
+          a melhor escolha para nossos clientes em todo o Brasil.
           <br />
           <br />
         </p>
@@ -220,21 +229,24 @@ const content = {
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
 
-      // aboutSocial: {
-      //   img: {
-      //     img: aboutSocialImg,
-      //     imgSocial: aboutInstagram,
-      //     alt: `Foto do Instagram do ${infos.name}`,
-      //   },
-      //   miniTag: "A_Definir",
-      //   title: "A_Definir",
-      //   subtitle: "A_Definir",
-      //   paragraph: <p></p>,
-      //   labelInstagram: "A_Definir no Instagram",
-      //   labelFacebook: "A_Definir no Facebook",
-      //   labelLinkedin: "A_Definir no LinkedIn",
-      //   labelX: "A_Definir no X",
-      // },
+      aboutSocial: {
+        img: {
+          img: aboutSocialImgBackground,
+          alt: `Foto do Instagram do ${infos.name}`,
+        },
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Penal e Processual Penal, com insights também sobre Direito de
+            Família, Trabalhista e Contratual. Não perca a chance de transformar
+            conhecimento em poder para proteger seus direitos.
+          </p>
+        ),
+      },
     },
     team: {
       title: "Nossa Equipe",
@@ -680,6 +692,11 @@ const content = {
       },
     },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;

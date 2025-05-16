@@ -12,6 +12,7 @@ import HeroImgBackground from "../components/sections/HeroImgBackground";
 import HowItWorksImage from "../components/sections/HowItWorksImage";
 import Numbers from "../components/sections/Numbers";
 import Services from "../components/sections/Services";
+import AboutSocial from "../components/sections/AboutSocial";
 
 export default function Index() {
   return (
@@ -19,9 +20,10 @@ export default function Index() {
       <NavbarSection />
       <HeroImgBackground />
       <Features />
-      <Services/>
+      <Services />
       <Numbers />
       <About />
+      <AboutSocial />
       <CtaWhatsapp />
       <HowItWorksImage />
       <Faq />
