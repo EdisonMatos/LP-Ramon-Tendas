@@ -45,7 +45,7 @@ function Footer() {
               />
               <p>{infos.mail}</p>
             </div>
-            <p className="opacity-70">Siga a gente nas redes sociais:</p>
+            <p className="opacity-70">Frase de observação:</p>
             <div className="opacity-70 invert">
               {" "}
               <div className="flex gap-[10px] items-center">

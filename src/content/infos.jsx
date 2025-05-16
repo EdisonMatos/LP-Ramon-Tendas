@@ -1,8 +1,8 @@
 const infos = {
-  name: "Paper Street",
-  slogan: "Sites, Marketing Digital e Sistemas para Internet",
-  phone: "(11) 99026-0977",
-  mail: "contato@paperstreet.com.br",
+  name: "a_Definir",
+  slogan: "a_Definir",
+  phone: "(00) 00000-0000",
+  mail: "a_Definir",
   footerInfos: {
     year: 2024,
     footerText:
