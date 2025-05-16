@@ -27,7 +27,7 @@ export default function Numbers() {
     <div
       className="flex justify-center bg-center bg-cover"
       style={{
-        backgroundImage: `url(${content.texts.numbers.backgroundImg})`,
+        backgroundImage: `url(${content.texts.cta.backgroundImg})`,
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
       }}

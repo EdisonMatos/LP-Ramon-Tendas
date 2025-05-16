@@ -37,6 +37,67 @@ import imgTestimonial10 from "../assets/imgs/testimonialsHero/imgTestimonial10.w
 import imgTestimonial11 from "../assets/imgs/testimonialsHero/imgTestimonial11.webp";
 import imgTestimonial12 from "../assets/imgs/testimonialsHero/imgTestimonial12.webp";
 
+export const infos = {
+  name: "A_Definir ",
+  email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
+  phone: {
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "20000477", // Apenas os 4 últimos números
+  },
+  phoneSecundario: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  phoneTerciario: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  endereco: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  enderecoSecundario: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  expediente: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda à sexta-feira:</p>
+      <p>A_Definirh</p>
+    </div>
+  ),
+
+  obs: (
+    <span className="italic">
+      {" "}
+      <i>A_Definir</i>
+    </span>
+  ),
+  instagramProfile: "ramom.tendas", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
+  x: "A_Definir",
+  whatsappDefaultMessage:
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  whatsChatDefaultMessage:
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+  slogan: "",
+};
+
 const content = {
   texts: {
     navbar: {
@@ -56,24 +117,18 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            Criamos <br className="hidden tablet1:flex desktop1:hidden" />{" "}
+            A_Definir <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
-            strings={["Sites", "Landing Pages", "Sites para Tráfego Pago"]}
+            strings={["A_Definir", "A_Definir", "A_Definir"]}
             className="text-yellow-400 my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            A opinião dos nossos clientes são <br /> prova de nossa qualidade.
-            Confira! 👇
+            A_Definir
           </p>
         </h1>
       ),
-      subtitle: (
-        <p>
-          Somos especialistas em desenvolver sites modernos, que aparecem nas
-          buscas no Google e funcionam bem em todos os tamanhos de tela
-        </p>
-      ),
+      subtitle: <p>A_Definir</p>,
       ctaButtonText: "Falar pelo WhatsApp",
       ctaButtonInstagram: "Falar pelo Instagram",
       images: {
@@ -98,29 +153,25 @@ const content = {
     },
     features: {
       miniTag: "Serviços",
-      title: "Nossas especialidades",
-      subtitle:
-        "Se você quer trazer o seu negócio pro mundo digital, nós te ajudamos",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       card1: {
-        title: "Sites para você ou sua empresa",
-        subtitle:
-          "A melhor forma do seu cliente te encontrar na internet e fazer ele confiar no seu negócio",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Landing Pages Institucionais",
-        subtitle:
-          "A forma mais moderna e objetiva de colocar seu negócio no Google e ganhar mais autoridade na internet",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Landing Pages em Geral",
-        subtitle:
-          "Ofereça serviços, venda cursos, ebooks e mais, combinando estratégias de anúncios em redes sociais e tráfego pago",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
@@ -147,19 +198,13 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          Somos a Paper Street e somos especialistas em desenvolver páginas web.
-          Os sites que fazemos passam por checagens super criteriosas em testes
-          de performance e temos orgulho em dizer que entregamos sites rápidos e
-          que atendem aos objetivos de nossos clientes.
+          A_Definir
           <br />
           <br />
-          Levamos a experiência do usuário muito a sério, focando sempre em
-          desenvolver sites que sejam bonitos e fáceis de serem utilizados,
-          desde os mais jovens até os mais idosos, aplicando sempre os conceitos
-          mais modernos que existem no mercado no momento.
+          A_Definir
           <br />
           <br />
-          Quer saber mais sobre a gente?
+          A_Definir
           <br />
           <br />
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
@@ -524,9 +569,7 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: (
-        <p className="">Deixa a gente cuidar da vida digital do seu negócio</p>
-      ),
+      title: <p className="">A_Definir</p>,
       subtitle: "#",
       ctaButtonText: "Fale com um atendente",
       link: "",
@@ -563,94 +606,57 @@ const content = {
     },
     steps: {
       miniTag: "Nosso Passo a Passo",
-      title: "Como funciona?",
-      subtitle:
-        "Nossos processos foram pensados para você não ter nenhuma preocupação enquanto seu site é construido.",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Informações",
-          cardDescription:
-            "Após contratação, um agente especializado da Paper irá entrar em contato e solicitar informações. Temos imagens e textos profissionais para auxiliar caso o cliente não tenha.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Desenvolvimento do site",
-          cardDescription:
-            "Iniciamos a criação do site, e durante esse período, continuamos à disposição para tirar dúvidas. O prazo vai variar de acordo com o que foi acordado durante a contratação.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Site no ar!",
-          cardDescription:
-            "Enviamos uma prévia para o cliente e, após aprovado, explicamos o processo de escolha do nome do site, criamos os emails profissionais e colocamos no ar.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Suporte e pós-venda",
-          cardDescription:
-            "De brinde, entregamos uma arte personalizada para o cliente postar em suas redes sociais, anunciando o site novo. Além disso, daremos dicas de como fazer melhor uso do seu site!",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     faq: {
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas",
       miniTag: "Perguntas Frequentes",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
-        question0: {
-          question: "Como escolher entre um site e uma landing page?",
-          answer: (
-            <p>
-              Sites são mais amplos, focam mais em mostrar você ou seu negócio.
-              O objetivo do site é mostrar que você é moderno e que sua empresa
-              está na internet também, assim como te dar autoridade, falar sobre
-              você, explicar o que você faz em geral e mostrar que você é
-              confiável. Hoje em dia, muitas pessoas só fecham negócios com
-              empresas que têm site, por exemplo.
-              <br />
-              <br />
-              Já uma Landing Page tem como foco ser uma ação de marketing mais
-              agressiva no convencimento sobre algum produto ou serviço que você
-              presta, tanto que o foco dela é fazer o visitante executar alguma
-              ação muito específica, como, por exemplo, comprar algo ou se
-              inscrever em um curso. A landing page não vai falar para o cliente
-              sobre informações da empresa em geral, pois esse é o papel do
-              site. A landing page vai fazer de tudo para que toda a atenção do
-              visitante seja direcionada para o produto ou serviço que você quer
-              vender.
-            </p>
-          ),
-        },
         question1: {
-          question:
-            "Gostaria de ter um site, mas não entendo sobre o assunto. O que devo fazer?",
-          answer:
-            "Entre em contato conosco que iremos te guiar com bastante simplicidade no processo. Para se tornar um cliente nosso, não é necessário nenhum tipo de conhecimento sobre sites ou internet. Estamos aqui exatamente para que você não tenha preocupação nenhuma.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question:
-            "Quero ter um site, mas não tenho fotos boas e não sei escrever bons textos. O que devo fazer?",
-          answer:
-            "Não se preocupe, nós também temos a solução para você. Nossa equipe irá sugerir todo material audiovisual que você precisar para ter o seu site e você não precisa ter custo com isso!",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Já tenho um site, mas está antigo. Vocês o atualizam?",
-          answer:
-            "Sim, e esse é um caso muito comum. Como a internet evolui bastante, às vezes um site feito há muito tempo precisa de uma atualização. Basta falar com nossa equipe que iremos modernizar o seu site.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question:
-            "Quais são as formas de pagamento que a Paper Street aceita?",
-          answer:
-            "Aceitamos e parcelamos o seu site no cartão de crédito, assim como também trabalhamos com Pix e Boleto Bancário.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question5: {
-          question: "A Paper Street emite nota fiscal?",
-          answer:
-            "Sim. Somos uma empresa devidamente regularizada e emitimos nota fiscal com nosso CNPJ, conforme a legislação vigente.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question6: {
           question: "A definir",

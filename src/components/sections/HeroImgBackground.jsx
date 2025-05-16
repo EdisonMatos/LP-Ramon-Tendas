@@ -1,7 +1,7 @@
 import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHero.webp";
+import bgHeroImg from "../../assets/imgs/hero/bgHero.jpeg";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import Button from "../interactives/Button";
@@ -70,7 +70,7 @@ export default function Hero() {
                           />
                         </div>
                       </MotionDivLeftToRight>
-                      <MotionDivLeftToRight>
+                      {/* <MotionDivLeftToRight>
                         <div className="flex justify-center w-full desktop1:justify-center">
                           <Button
                             className=" bg-yellow-400 hover:bg-white text-black hover:text-bg-yellow-400 hover:border-bg-yellow-400 hover:border-solid border-[1px] border-yellow-400 hover:border-white"
@@ -105,7 +105,7 @@ export default function Hero() {
                             }
                           />
                         </div>
-                      </MotionDivLeftToRight>
+                      </MotionDivLeftToRight> */}
                     </div>
                     <ScrollDownIndicator />
                   </div>

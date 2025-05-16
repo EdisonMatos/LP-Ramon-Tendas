@@ -40,9 +40,9 @@ export default function AboutSocial() {
             </Paragraphs>
           </MotionDivDownToUp>
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <a
-                href="https://www.instagram.com/ritaalmeida_corretora/"
+                href="https://www.instagram.com/ramom.tendas__/"
                 target="_blank"
               >
                 <ButtonWithIconLight
@@ -116,7 +116,7 @@ export default function AboutSocial() {
                   }
                 />
               </a>
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
           </div>
         </div>
         <MotionDivDownToUp className="w-[100%] desktop1:w-[360px] desktop2:w-[300px]">
