@@ -10,12 +10,12 @@ import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
-import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
-import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg"
+import featuresImg5 from "../assets/imgs/features/featuresImg5.jpg";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -120,7 +120,7 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            Confie na líder em{" "}
+            Líder em
             <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
@@ -128,9 +128,9 @@ const content = {
               "estruturas sob medida",
               "tendas para festas, ",
               "casamentos e feiras",
-              "cobertura perfeita para seu evento",
+              "e muito mais!",
             ]}
-            className="text-yellow-400 my-typewriter"
+            className="text-white my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
             Qualidade e serviço que você merece.
@@ -163,7 +163,8 @@ const content = {
     features: {
       miniTag: "TENDAS PARA TODO TIPO DE EVENTO",
       title: "Coberturas sob medida para cada ocasião",
-      subtitle: "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
+      subtitle:
+        "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
       card1: {
         title: "Tenda Piramidal Comum",
         subtitle: "",
@@ -209,12 +210,12 @@ const content = {
     },
     numbers: {
       backgroundImg: numbersImgBg,
-      number1: 30,
+      number1: 6,
       number1Description: "Anos no mercado",
-      number2: 650,
-      number2Description: "Apólices geridas anualmente",
-      number3: 96,
-      number3Description: "De índice de renovação",
+      number2: 20,
+      number2Description: "Tipos de tendas",
+      number3: 100,
+      number3Description: "Satisfação dos clientes",
     },
     about: {
       imagem: {

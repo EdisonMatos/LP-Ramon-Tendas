@@ -21,7 +21,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${content.texts.cta.backgroundImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-50 items-left desktop1:pl desktop3:pl-0">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-80 items-left desktop1:pl desktop3:pl-0">
         <SectionArea>
           <SectionWrapper>
             <div className="w-full justify-evenly">
