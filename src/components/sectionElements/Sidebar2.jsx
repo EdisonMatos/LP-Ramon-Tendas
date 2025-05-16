@@ -179,7 +179,7 @@ export default function HeadlessDemo() {
                     </li>
                     <hr className="m-5 mx-3 mb-8 border-top-1 surface-border" />
                     <div className=" flex flex-col gap-[16px] w-full px-[2px]">
-                      <ButtonWithIconNavbar
+                      {/* <ButtonWithIconNavbar
                         className="w-full"
                         link={links.socialMedia.instagram}
                         label="Siga a gente no Instagram"
@@ -254,7 +254,7 @@ export default function HeadlessDemo() {
                             <circle cx="4" cy="4" r="2" />
                           </svg>
                         }
-                      />
+                      /> */}
                     </div>
                     {/* <a
                       v-ripple

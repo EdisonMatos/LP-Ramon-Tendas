@@ -40,7 +40,7 @@ export default function CtaWhatsapp() {
               label={content.texts.cta.ctaButtonText}
               buttonLink={`https://wa.me/${links.ctaWhatsapp}`}
               animation
-              icon={<FaWhatsapp size={24} />}
+              icon={<FaWhatsapp size={24} className="text-white" />}
             />
           </SectionWrapper>
         </SectionArea>
@@ -48,4 +48,3 @@ export default function CtaWhatsapp() {
     </div>
   );
 }
-

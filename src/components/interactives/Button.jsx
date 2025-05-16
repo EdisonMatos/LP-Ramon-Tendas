@@ -48,7 +48,9 @@ export default function Button({
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               <div className="">{icon}</div>
-              <p className={`flex items-center ${textclassName}`}>{label}</p>
+              <p className={`flex items-center ${textclassName} text-white`}>
+                {label}
+              </p>
             </div>
           </button>
         </MotionDivDownToUp>
@@ -62,7 +64,9 @@ export default function Button({
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               <div className="">{icon}</div>
-              <p className={`flex items-center ${textclassName}`}>{label}</p>
+              <p className={`flex items-center ${textclassName} text-white`}>
+                {label}
+              </p>
             </div>
           </button>
         </div>
