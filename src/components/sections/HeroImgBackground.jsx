@@ -51,7 +51,7 @@ export default function Hero() {
                       <MotionDivLeftToRight>
                         <div className="flex justify-center w-full desktop1:justify-center">
                           <Button
-                            className=" bg-primary hover:bg-white text-white hover:text-black transition-all duration-300  "
+                            className=" bg-primary  text-white transition-all duration-300  "
                             aria-label={content.texts.hero.ctaButtonAriaLabel}
                             label={content.texts.hero.ctaButtonText}
                             buttonLink={whatsappContactLink}
