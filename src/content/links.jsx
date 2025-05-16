@@ -1,9 +1,9 @@
 import { Youtube } from "lucide-react";
 
 const links = {
-  whatsapp: "https://wa.me/+5511990260977?text=",
+  whatsapp: "https://wa.me/+62992873590?text=",
   ctaWhatsapp:
-    "+5511990260977?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "+62992873590?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
     instagram: "https://www.instagram.com/ramom.tendas__",

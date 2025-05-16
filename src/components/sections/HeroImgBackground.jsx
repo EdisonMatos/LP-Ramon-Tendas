@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <div
       className="w-full h-auto bg-center bg-no-repeat bg-cover font-mainFont"
-      style={{ backgroundImage: `url(${bgHeroImg})` }}
+      style={{ backgroundImage: `url(${content.texts.cta.backgroundImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-50 items-left desktop1:pl desktop3:pl-0">
@@ -51,7 +51,7 @@ export default function Hero() {
                       <MotionDivLeftToRight>
                         <div className="flex justify-center w-full desktop1:justify-center">
                           <Button
-                            className=" bg-yellow-400 hover:bg-white text-black hover:text-bg-yellow-400 hover:border-bg-yellow-400 hover:border-solid border-[1px] border-yellow-400 hover:border-white"
+                            className=" bg-primary hover:bg-white text-white hover:text-black transition-all duration-300  "
                             aria-label={content.texts.hero.ctaButtonAriaLabel}
                             label={content.texts.hero.ctaButtonText}
                             buttonLink={whatsappContactLink}

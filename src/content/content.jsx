@@ -1,7 +1,7 @@
 import links from "./links";
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import logoDark from "../assets/imgs/logo/logoDark.webp";
-import aboutImg1 from "../assets/imgs/about/aboutImgLp.webp";
+import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -9,12 +9,15 @@ import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
-
+import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg"
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
@@ -22,7 +25,7 @@ import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 import MotionDivDownToUp from "../components/animation/MotionDivDownToUp";
 import TypewriterComponent from "../components/animation/TypeWriter";
 import ButtonWithIconNavbar from "../components/interactives/ButtonWithIconNavbar";
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import imgTestimonial1 from "../assets/imgs/testimonialsHero/imgTestimonial1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonialsHero/imgTestimonial2.webp";
@@ -117,18 +120,24 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            A_Definir <br className="hidden tablet1:flex desktop1:hidden" />{" "}
+            Confie na líder em{" "}
+            <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
-            strings={["A_Definir", "A_Definir", "A_Definir"]}
+            strings={[
+              "estruturas sob medida",
+              "tendas para festas, ",
+              "casamentos e feiras",
+              "cobertura perfeita para seu evento",
+            ]}
             className="text-yellow-400 my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            A_Definir
+            Qualidade e serviço que você merece.
           </p>
         </h1>
       ),
-      subtitle: <p>A_Definir</p>,
+      subtitle: <p></p>,
       ctaButtonText: "Falar pelo WhatsApp",
       ctaButtonInstagram: "Falar pelo Instagram",
       images: {
@@ -152,28 +161,49 @@ const content = {
       },
     },
     features: {
-      miniTag: "Serviços",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TENDAS PARA TODO TIPO DE EVENTO",
+      title: "Coberturas sob medida para cada ocasião",
+      subtitle: "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
       card1: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tenda Piramidal Comum",
+        subtitle: "",
         img: featuresImg1,
-        buttonLabel: "Saiba mais",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tenda Piramidal Cristal",
+        subtitle: "",
         img: featuresImg2,
-        buttonLabel: "Saiba mais",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tenda Piramidal Personalizada",
+        subtitle: "",
         img: featuresImg3,
-        buttonLabel: "Saiba mais",
+        buttonLabel: "Orçamento",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card4: {
+        title: "Locação de Tendas",
+        subtitle: "",
+        img: featuresImg4,
+        buttonLabel: "Orçamento",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card5: {
+        title: "Sombreadores Sob Medida",
+        subtitle: "",
+        img: featuresImg5,
+        buttonLabel: "Orçamento",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card6: {
+        title: "Tenda Sanfonada Personalizada",
+        subtitle: "",
+        img: featuresImg6,
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
     },
@@ -189,104 +219,64 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Pessoas em negociação",
+        alt: "Imagem profissional de escritório/advogado(a)",
       },
-      imagemMobile: {
-        img: aboutImgMobile1,
-        alt: "Pessoas em negociação",
-      },
-      title: "Sobre nós 👋",
+      miniTag: "QUEM É A RAMOM TENDAS",
+      title: "Nossa história",
+      subtitle:
+        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção. ",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.instagram}
-                label="Siga a gente no Instagram"
-                icon={
-                  <svg
-                    aria-label="Botão para Instagram"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-instagram"
-                  >
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.facebook}
-                label="Siga a gente no Facebook"
-                icon={
-                  <svg
-                    aria-label="Botão para Facebook"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-facebook"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <ButtonWithIconNavbar
-                className="w-[75%]"
-                link={links.socialMedia.linkedin}
-                label="Siga a gente no Linkedin"
-                icon={
-                  <svg
-                    aria-label="Botão para Linkedin"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-linkedin"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect width="4" height="12" x="2" y="9" />
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-          </div>
+          Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
+          como uma referência em vendas e fabricação de tendas, além de atuar
+          com excelência em projetos de urbanismo e construção.
         </div>
       ),
+      buttonModalLabelAbout: "Continuar lendo",
+      modal: (
+        <p>
+          Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
+          como uma referência em vendas e fabricação de tendas, além de atuar
+          com excelência em projetos de urbanismo e construção.
+          <br />
+          <br />
+          Nossa missão é oferecer soluções práticas, duráveis e acessíveis,
+          sempre prezando pela qualidade, agilidade e satisfação do cliente.
+          <br />
+          <br />
+          Nosso diferencial está no atendimento humanizado, no cuidado com cada
+          detalhe e na fé que impulsiona nossos projetos. Acreditamos na
+          intuição, no pensamento positivo e no compromisso com quem confia em
+          nosso trabalho.
+          <br />
+          <br />
+          Cada tenda instalada ou obra concluída representa nosso esforço em ser
+          a melhor escolha para nossos clientes em todo o Brasil.
+          <br />
+          <br />
+        </p>
+      ),
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
+
+      aboutSocial: {
+        img: {
+          img: aboutSocialImgBackground,
+          alt: `Foto do Instagram do ${infos.name}`,
+        },
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Penal e Processual Penal, com insights também sobre Direito de
+            Família, Trabalhista e Contratual. Não perca a chance de transformar
+            conhecimento em poder para proteger seus direitos.
+          </p>
+        ),
+      },
     },
     team: {
       title: "Nossa Equipe",
@@ -569,9 +559,15 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: <p className="">A_Definir</p>,
-      subtitle: "#",
-      ctaButtonText: "Fale com um atendente",
+      miniTag: "FALE CONOSCO",
+      title: (
+        <p className="">
+          Precisa de tendas ou construção? Fale com a Ramom Tendas!
+        </p>
+      ),
+      subtitle:
+        "Nossa equipe está pronta para atender você com soluções sob medida e qualidade garantida.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
       link: "",
     },
     trustedBy: {
@@ -605,54 +601,63 @@ const content = {
       },
     },
     steps: {
-      miniTag: "Nosso Passo a Passo",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
+      subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Primeiro contato",
+          cardDescription:
+            "Conversamos com você para entender sua necessidade — seja tenda, obra ou projeto urbano.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Planejamento da solução",
+          cardDescription:
+            "Analisamos o local, prazos e objetivos para oferecer a melhor solução técnica e personalizada.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Proposta e aprovação",
+          cardDescription:
+            "Apresentamos a proposta detalhada com valores, prazos e condições para sua aprovação.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Execução do projeto",
+          cardDescription:
+            "Iniciamos a entrega: montagem da tenda ou execução da obra com qualidade, segurança e pontualidade.",
         },
       },
     },
     faq: {
-      miniTag: "Perguntas Frequentes",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais tipos de eventos vocês atendem?",
+          answer:
+            "Atendemos uma ampla variedade de eventos, incluindo casamentos, aniversários, festas corporativas, feiras, shows e eventos comunitários. Nossas tendas são versáteis e podem ser adaptadas para diferentes ocasiões.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso solicitar um orçamento?",
+          answer:
+            "Para receber um orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem montagem e desmontagem das tendas?",
+          answer:
+            "Sim, nossa equipe especializada realiza tanto a montagem quanto a desmontagem das tendas. O tempo de montagem varia conforme o tamanho e a complexidade do evento, mas garantimos agilidade e segurança em todas as etapas.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Quais são os cuidados necessários com as condições climáticas?",
+          answer:
+            "Nossas tendas são projetadas para oferecer proteção contra sol intenso, chuvas inesperadas e vento forte. No entanto, em condições climáticas extremas, recomendamos avaliar a viabilidade da montagem para garantir a segurança de todos os participantes.",
         },
         question5: {
           question: "A_Definir",
@@ -717,6 +722,11 @@ const content = {
       },
     },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;

@@ -142,7 +142,7 @@ export default function AccordionExpandDefault() {
       </Accordion>
 
       {/* Accordion 5 */}
-      <Accordion
+      {/* <Accordion
         className="mb-[3%]"
         expanded={expanded === "panel5"}
         onChange={handleChange("panel5")}
@@ -167,7 +167,7 @@ export default function AccordionExpandDefault() {
             </p>
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       {/* Accordion 6 */}
       {/* <Accordion

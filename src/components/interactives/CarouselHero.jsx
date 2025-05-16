@@ -2,18 +2,18 @@ import React, { useState, useEffect, useRef } from "react";
 import { Carousel } from "antd";
 import "../../index.css";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
-import imgTestimonial1 from "../../assets/imgs/testimonialsHero/imgTestimonial1.webp";
-import imgTestimonial2 from "../../assets/imgs/testimonialsHero/imgTestimonial2.webp";
-import imgTestimonial3 from "../../assets/imgs/testimonialsHero/imgTestimonial3.webp";
-import imgTestimonial4 from "../../assets/imgs/testimonialsHero/imgTestimonial4.webp";
-import imgTestimonial5 from "../../assets/imgs/testimonialsHero/imgTestimonial5.webp";
-import imgTestimonial6 from "../../assets/imgs/testimonialsHero/imgTestimonial6.webp";
-import imgTestimonial7 from "../../assets/imgs/testimonialsHero/imgTestimonial7.webp";
-import imgTestimonial8 from "../../assets/imgs/testimonialsHero/imgTestimonial8.webp";
-import imgTestimonial9 from "../../assets/imgs/testimonialsHero/imgTestimonial9.webp";
-import imgTestimonial10 from "../../assets/imgs/testimonialsHero/imgTestimonial10.webp";
-import imgTestimonial11 from "../../assets/imgs/testimonialsHero/imgTestimonial11.webp";
-import imgTestimonial12 from "../../assets/imgs/testimonialsHero/imgTestimonial12.webp";
+import imgTestimonial1 from "../../assets/imgs/hero/heroImg1.png";
+import imgTestimonial2 from "../../assets/imgs/hero/heroImg2.png";
+import imgTestimonial3 from "../../assets/imgs/hero/heroImg3.png";
+import imgTestimonial4 from "../../assets/imgs/hero/heroImg4.png";
+import imgTestimonial5 from "../../assets/imgs/hero/heroImg5.png";
+import imgTestimonial6 from "../../assets/imgs/hero/heroImg6.png";
+import imgTestimonial7 from "../../assets/imgs/hero/heroImg7.png";
+import imgTestimonial8 from "../../assets/imgs/hero/heroImg8.png";
+import imgTestimonial9 from "../../assets/imgs/hero/heroImg9.png";
+// import imgTestimonial10 from "../../assets/imgs/hero/heroImg1.png";
+// import imgTestimonial11 from "../../assets/imgs/hero/heroImg1.png";
+// import imgTestimonial12 from "../../assets/imgs/hero/heroImg1.png";
 
 const CarouselHero = () => {
 
@@ -140,42 +140,42 @@ const CarouselHero = () => {
         autoplay={false}
         className="mb-[80px]"
       >
-        <div className="carousel-item">
-          <img src={imgTestimonial1} alt="Testimonial 1" />
+        <div className="carousel-item ">
+          <img src={imgTestimonial1} className="rounded-[5px] border" alt="Testimonial 1" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial2} alt="Testimonial 2" />
+          <img src={imgTestimonial2} className="rounded-[5px] border" alt="Testimonial 2" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial3} alt="Testimonial 3" />
+          <img src={imgTestimonial3} className="rounded-[5px] border" alt="Testimonial 3" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial4} alt="Testimonial 4" />
+          <img src={imgTestimonial4} className="rounded-[5px] border" alt="Testimonial 4" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial5} alt="Testimonial 5" />
+          <img src={imgTestimonial5} className="rounded-[5px] border" alt="Testimonial 5" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial6} alt="Testimonial 6" />
+          <img src={imgTestimonial6} className="rounded-[5px] border" alt="Testimonial 6" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial7} alt="Testimonial 7" />
+          <img src={imgTestimonial7} className="rounded-[5px] border" alt="Testimonial 7" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial8} alt="Testimonial 8" />
+          <img src={imgTestimonial8} className="rounded-[5px] border" alt="Testimonial 8" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial9} alt="Testimonial 9" />
+          <img src={imgTestimonial9} className="rounded-[5px] border" alt="Testimonial 9" />
+        </div>
+        {/* <div className="carousel-item">
+          <img src={imgTestimonial10 className="rounded-[5px] border"} alt="Testimonial 10" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial10} alt="Testimonial 10" />
+          <img src={imgTestimonial11 className="rounded-[5px] border"} alt="Testimonial 11" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial11} alt="Testimonial 11" />
-        </div>
-        <div className="carousel-item">
-          <img src={imgTestimonial12} alt="Testimonial 12" />
-        </div>
+          <img src={imgTestimonial12 className="rounded-[5px] border"} alt="Testimonial 12" />
+        </div> */}
       </Carousel>
 
       {/* Barra de progresso */}
