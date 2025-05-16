@@ -31,7 +31,8 @@ function Footer() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp width="42" height="42" />
+                  <FaWhatsapp size={22} />
+
                   <a
                     href={whatsappContactLink}
                     target="_blank"
@@ -43,7 +44,7 @@ function Footer() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp width="42" height="42" />
+                  <FaWhatsapp size={22} />
                   <a
                     href={whatsappContactLink}
                     target="_blank"
@@ -55,7 +56,7 @@ function Footer() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp width="42" height="42" />
+                  <FaWhatsapp size={22} />
                   <a
                     href={whatsappContactLink}
                     target="_blank"
