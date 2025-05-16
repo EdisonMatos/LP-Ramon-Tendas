@@ -1,7 +1,7 @@
 import links from "./links";
 import logo from "../assets/imgs/logo/logo.webp";
 import logoDark from "../assets/imgs/logo/logoDark.webp";
-import aboutImg1 from "../assets/imgs/about/aboutImgLp.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -195,19 +195,74 @@ const content = {
         img: aboutImgMobile1,
         alt: "Pessoas em negociação",
       },
-      title: "Sobre nós 👋",
+      miniTag: "QUEM É A RAMOM TENDAS",
+      title: "Nossa história",
+      subtitle:
+        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
+          <div>
+            Com uma história marcada por dedicação e compromisso,{" "}
+            <i>
+              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+            </i>{" "}
+            se destaca como referência no cenário jurídico.
+            <br />
+            Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>
+            , pai e filho, nosso escritório e nossa advocacia combinam a
+            sabedoria da experiência com a energia da inovação, criando uma
+            parceria sólida e harmoniosa.
+          </div>
+          buttonModalLabelAbout: "Continuar lendo", modal: (
+          <p>
+            Com uma história marcada por dedicação e compromisso,{" "}
+            <i>
+              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+            </i>{" "}
+            se destaca como referência no cenário jurídico.
+            <br />
+            <br />
+            Fundado e liderado por <i>Dr. Wellington Mendes e Dr. Yago Prado</i>
+            , pai e filho, nosso escritório e nossa advocacia combinam a
+            sabedoria da experiência com a energia da inovação, criando uma
+            parceria sólida e harmoniosa.
+            <br />
+            <br />
+            Ao longo dos anos, nos especializamos e construímos parcerias em
+            diversas áreas do direito, incluindo Constitucional, Administrativo,
+            Médico, Cível, do Consumidor, do Trabalho, Previdenciário e
+            Tributário.
+            <br />
+            <br />
+            Nosso objetivo é oferecer soluções jurídicas sob medida, adaptadas
+            às necessidades específicas de cada cliente, seja ele pessoa física
+            ou jurídica.
+            <br />
+            <br />
+            Acreditamos que um relacionamento próximo e de confiança com nossos
+            clientes é essencial para alcançar os melhores resultados. Por isso,
+            nossa equipe se dedica a entender profundamente cada caso, buscando
+            sempre as estratégias mais eficazes e éticas.
+            <br />
+            <br />
+            Além disso, nossa atuação é guiada por valores como integridade,
+            transparência e respeito. Sabemos que cada decisão jurídica pode ter
+            um impacto significativo na vida de nossos clientes, e, por isso,
+            tratamos cada caso com a atenção e o cuidado que ele merece.
+            <br />
+            <br />
+            No{" "}
+            <i>
+              Wellington Mendes & Yago Prado - Advocacia e Consultoria Jurídica
+            </i>
+            , você encontrará uma equipe preparada para enfrentar desafios e
+            oferecer soluções práticas e estratégicas. Estamos aqui para ser
+            mais do que seus advogados, queremos ser seus parceiros na busca
+            pela justiça e na proteção dos seus direitos e interesses.
+            <br />
+            <br />
+          </p>
+          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
             <MotionDivDownToUp>
               <ButtonWithIconNavbar
                 className="w-[75%]"
@@ -284,7 +339,7 @@ const content = {
                 }
               />
             </MotionDivDownToUp>
-          </div>
+          </div> */}
         </div>
       ),
     },
