@@ -45,7 +45,7 @@ export default function Button({
       <Animation>
         <button
           onClick={onClick}
-          className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
+          className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-primary hover:scale-110`}
         >
           <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
             <div className="">{icon}</div>
