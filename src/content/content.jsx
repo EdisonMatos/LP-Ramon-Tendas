@@ -15,7 +15,7 @@ import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
 import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
 import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
-
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg"
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -218,7 +218,7 @@ const content = {
     },
     about: {
       imagem: {
-        // img: aboutImg1,
+        img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
       miniTag: "QUEM É A RAMOM TENDAS",
