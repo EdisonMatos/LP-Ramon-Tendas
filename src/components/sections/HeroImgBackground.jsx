@@ -25,11 +25,11 @@ export default function Hero() {
         <SectionArea>
           <SectionWrapper>
             <div className="w-full justify-evenly">
-              <div className="h-[60px] desktop3:h-[45px]" />
+              <div className="h-[100px] desktop3:h-[45px]" />
               <div className="flex phone1:flex-col">
                 <div className="flex flex-col w-full pt-[20px] pb-[0px] tablet1:pt-[80px] tablet1:pb-[20px] desktop1:pt-[40px]">
                   <MotionDivLeftToRight>
-                    <div className="text-white mt-[30px] flex justify-center font-bold leading-[46px] phone2:leading-[60px] phone3:leading-[60px] tablet1:leading-[60px] desktop1:leading-[92px] text-center text-title4 phone2:text-title6 tablet1:text-title7 desktop1:text-[72px]">
+                    <div className="text-white mt-[30px] flex justify-center font-bold leading-[46px] phone2:leading-[45px] phone3:leading-[45px] tablet1:leading-[60px] desktop1:leading-[92px] text-center text-title4 phone2:text-title5 tablet1:text-title7 desktop1:text-[72px]">
                       <h1 className="pb-[16px]  desktop1:w-[80%] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {content.texts.hero.title}
                       </h1>

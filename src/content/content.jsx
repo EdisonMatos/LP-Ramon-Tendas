@@ -1,6 +1,6 @@
 import links from "./links";
 import logo from "../assets/imgs/logo/logo.png";
-import logoDark from "../assets/imgs/logo/logoDark.webp";
+import logoDark from "../assets/imgs/logo/logo.png";
 import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
@@ -125,15 +125,14 @@ const content = {
           </span>
           <TypewriterComponent
             strings={[
-              "estruturas sob medida",
               "tendas para festas, ",
+              "estruturas sob medida,",
               "casamentos e feiras",
-              "e muito mais!",
             ]}
             className="text-white my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            Qualidade e serviço que você merece.
+            Padrão de excelência e qualidade que você merece!
           </p>
         </h1>
       ),
