@@ -107,7 +107,7 @@ function Footer() {
 
               {/* Msg de observação */}
 
-              <MotionDivDownToUp>
+              {/* <MotionDivDownToUp>
                 {" "}
                 <div className="flex full gap-x-[12px] items-center opacity-90">
                   <div>
@@ -130,7 +130,7 @@ function Footer() {
 
                   <p>obsFooter</p>
                 </div>
-              </MotionDivDownToUp>
+              </MotionDivDownToUp> */}
             </div>
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MotionDivDownToUp>
@@ -358,9 +358,12 @@ function Footer() {
 
           <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
 
-          <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
-            <p className="w-full opacity-75">copyrightLine </p>
-            <p>
+          <div className="text-center w-full phone2:w-[40%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
+            <p className="w-full opacity-75">
+              2025 - Dra. Valéria Candal - Todos os direitos reservados Gostaria
+              de ter um site como este? Clique aqui{" "}
+            </p>
+            {/* <p>
               <a
                 className="transition hover:underline"
                 target="_blank"
@@ -369,7 +372,7 @@ function Footer() {
                 {" "}
                 footerDivulgacaoText{" "}
               </a>
-            </p>
+            </p> */}
           </div>
         </SectionWrapper>
       </SectionArea>
