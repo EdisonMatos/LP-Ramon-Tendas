@@ -38,6 +38,27 @@ export default function Features() {
             buttonLabel={content.texts.features.card3.buttonLabel}
             buttonLink={content.texts.features.card3.buttonLink}
           />
+           <FeatureImgOnBgCard
+            bgImg={content.texts.features.card4.img}
+            title={content.texts.features.card4.title}
+            description={content.texts.features.card4.subtitle}
+            buttonLabel={content.texts.features.card4.buttonLabel}
+            buttonLink={content.texts.features.card4.buttonLink}
+          />
+           <FeatureImgOnBgCard
+            bgImg={content.texts.features.card5.img}
+            title={content.texts.features.card5.title}
+            description={content.texts.features.card5.subtitle}
+            buttonLabel={content.texts.features.card5.buttonLabel}
+            buttonLink={content.texts.features.card5.buttonLink}
+          />
+           <FeatureImgOnBgCard
+            bgImg={content.texts.features.card6.img}
+            title={content.texts.features.card6.title}
+            description={content.texts.features.card6.subtitle}
+            buttonLabel={content.texts.features.card6.buttonLabel}
+            buttonLink={content.texts.features.card6.buttonLink}
+          />
         </div>
       </SectionWrapper>
     </SectionArea>

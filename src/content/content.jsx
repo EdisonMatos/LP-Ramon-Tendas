@@ -9,9 +9,12 @@ import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
 
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
@@ -179,6 +182,27 @@ const content = {
         title: "A_Definir",
         subtitle: "A_Definir",
         img: featuresImg3,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card4: {
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        img: featuresImg4,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card5: {
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        img: featuresImg5,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
+      },
+      card6: {
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        img: featuresImg6,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
