@@ -24,38 +24,39 @@ export default function Services() {
   };
 
   return (
-    <SectionArea className="bg-quinary">
+    <SectionArea className="bg-red-900">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="Nossos Seguros"
-        sectionHeaderSubtitle="Descubra nossas especialidades em proteção e assistência"
+        sectionHeaderTitle="a_Definir"
+        sectionHeaderSubtitle="a_Definir"
+        type="dark"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
             img={services.main.card1.img}
-            title="Seguro Automóvel"
-            description="Proteção completa para seu veículo, com assistência 24 horas e serviços personalizados."
+            title="a_Definir"
+            description="a_Definir"
           />
           <FeatureCard
             img={services.main.card2.img}
-            title="Seguro Residencial e Condomínios"
-            description="Coberturas abrangentes para sua casa ou apartamento, incluindo danos estruturais e responsabilidade civil."
+            title="a_Definir"
+            description="a_Definir"
           />
           <FeatureCard
             img={services.main.card3.img}
-            title="Seguro de Vida e Acidentes"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title="a_Definir"
+            description="a_Definir"
           />
           <FeatureCard
             img={services.main.card4.img}
-            title="Seguro Empresarial"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title="a_Definir"
+            description="a_Definir"
           />
           <FeatureCard
             img={services.main.card5.img}
-            title="Planos de Saúde"
-            description="Segurança financeira para sua família em casos de imprevistos, com coberturas adaptadas às suas necessidades."
+            title="a_Definir"
+            description="a_Definir"
           />
           <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
             <img
@@ -65,12 +66,10 @@ export default function Services() {
             />
             <div className="">
               <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
-                <MotionDivDownToUp>Demais seguros</MotionDivDownToUp>
+                <MotionDivDownToUp>a_Definir</MotionDivDownToUp>
               </h1>
               <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">
-                <MotionDivDownToUp>
-                  Confira todos os nosso seguros clicando abaixo.
-                </MotionDivDownToUp>
+                <MotionDivDownToUp>a_Definir </MotionDivDownToUp>
               </p>
               <MotionDivDownToUp>
                 <ServicesModal />
