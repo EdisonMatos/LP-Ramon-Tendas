@@ -569,9 +569,15 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: <p className="">A_Definir</p>,
-      subtitle: "#",
-      ctaButtonText: "Fale com um atendente",
+      miniTag: "FALE CONOSCO",
+      title: (
+        <p className="">
+          Precisa de tendas ou construção? Fale com a Ramom Tendas!
+        </p>
+      ),
+      subtitle:
+        "Nossa equipe está pronta para atender você com soluções sob medida e qualidade garantida.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
       link: "",
     },
     trustedBy: {
