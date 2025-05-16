@@ -23,12 +23,12 @@ const ServicesModal = () => {
 
   const tabs = [
     {
-      label: "a_Definir1",
+      label: "A_Definir",
       content: (
         <div className="flex justify-center py-[5%] ">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px] ">
             <div className="text-[12px] font-secondFont">
-              <p>a_Definir1:</p>
+              <p>A_Definir:</p>
             </div>
             <div className="text-[12px] flex flex-col gap-[8px] text-blue-700 font-secondFont">
               <button className="flex" onClick={abrirModal}>
@@ -47,13 +47,13 @@ const ServicesModal = () => {
                   <polyline points="15 10 20 15 15 20" />
                   <path d="M4 4v7a4 4 0 0 0 4 4h12" />
                 </svg>
-                <span className="ml-1">title a_Definir1</span>
+                <span className="ml-1">title A_Definir</span>
               </button>
               {modalAberto && (
                 <CardModal
                   visible={modalAberto}
                   onClose={fecharModal}
-                  header="header a_Definir1"
+                  header="header A_Definir"
                   content={
                     <div className=" w-full flex flex-col gap-[16px]">
                       <div className="flex w-full">
@@ -64,9 +64,7 @@ const ServicesModal = () => {
                           <h2 className="flex font-bold">
                             Pra quem é esse seguro?
                           </h2>
-                          <p className="flex">
-                            Descrição a_Definir1
-                          </p>
+                          <p className="flex">Descrição A_Definir</p>
                         </div>
                         <div className="">
                           <ButtonWithIcon
@@ -98,7 +96,7 @@ const ServicesModal = () => {
       ),
     },
     {
-      label: "A_Definir2",
+      label: "A_Definir",
       content: (
         <div className="flex justify-center py-[5%] ">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px] ">
@@ -122,13 +120,13 @@ const ServicesModal = () => {
                   <polyline points="15 10 20 15 15 20" />
                   <path d="M4 4v7a4 4 0 0 0 4 4h12" />
                 </svg>
-                <span className="ml-1">title a_Definir2</span>
+                <span className="ml-1">title A_Definir</span>
               </button>
               {modalAberto && (
                 <CardModal
                   visible={modalAberto}
                   onClose={fecharModal}
-                  header="header a_Definir2"
+                  header="header A_Definir"
                   content={
                     <div className=" w-full flex flex-col gap-[16px]">
                       <div className="flex w-full">
@@ -139,9 +137,7 @@ const ServicesModal = () => {
                           <h2 className="flex font-bold">
                             Pra quem é esse seguro?
                           </h2>
-                          <p className="flex">
-                            Descrição a_Definir2
-                          </p>
+                          <p className="flex">Descrição A_Definir</p>
                         </div>
                         <div className="">
                           <ButtonWithIcon
@@ -173,7 +169,7 @@ const ServicesModal = () => {
       ),
     },
     {
-      label: "A_Definir3",
+      label: "A_Definir",
       content: (
         <div className="flex justify-center py-[5%] ">
           <div className="flex w-full px-[5%] h-auto flex-col gap-[18px] ">
@@ -197,13 +193,13 @@ const ServicesModal = () => {
                   <polyline points="15 10 20 15 15 20" />
                   <path d="M4 4v7a4 4 0 0 0 4 4h12" />
                 </svg>
-                <span className="ml-1">title a_Definir3</span>
+                <span className="ml-1">title A_Definir</span>
               </button>
               {modalAberto && (
                 <CardModal
                   visible={modalAberto}
                   onClose={fecharModal}
-                  header="header a_Definir3"
+                  header="header A_Definir"
                   content={
                     <div className=" w-full flex flex-col gap-[16px]">
                       <div className="flex w-full">
@@ -214,9 +210,7 @@ const ServicesModal = () => {
                           <h2 className="flex font-bold">
                             Pra quem é esse seguro?
                           </h2>
-                          <p className="flex">
-                           Descrição a_Definir3
-                          </p>
+                          <p className="flex">Descrição A_Definir</p>
                         </div>
                         <div className="">
                           <ButtonWithIcon

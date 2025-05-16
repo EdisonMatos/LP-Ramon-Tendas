@@ -1,8 +1,8 @@
 const infos = {
-  name: "a_Definir",
-  slogan: "a_Definir",
+  name: "A_Definir",
+  slogan: "A_Definir",
   phone: "(00) 00000-0000",
-  mail: "a_Definir",
+  mail: "A_Definir",
   footerInfos: {
     year: 2024,
     footerText:

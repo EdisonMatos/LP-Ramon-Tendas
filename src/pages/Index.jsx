@@ -22,7 +22,6 @@ export default function Index() {
       <Services/>
       <Numbers />
       <About />
-      <Team />
       <CtaWhatsapp />
       <HowItWorksImage />
       <Faq />

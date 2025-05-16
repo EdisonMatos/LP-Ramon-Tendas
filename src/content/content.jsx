@@ -37,6 +37,67 @@ import imgTestimonial10 from "../assets/imgs/testimonialsHero/imgTestimonial10.w
 import imgTestimonial11 from "../assets/imgs/testimonialsHero/imgTestimonial11.webp";
 import imgTestimonial12 from "../assets/imgs/testimonialsHero/imgTestimonial12.webp";
 
+export const infos = {
+  name: "A_Definir ",
+  email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
+  phone: {
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "20000477", // Apenas os 4 últimos números
+  },
+  phoneSecundario: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  phoneTerciario: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  endereco: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  enderecoSecundario: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  expediente: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda à sexta-feira:</p>
+      <p>A_Definirh</p>
+    </div>
+  ),
+
+  obs: (
+    <span className="italic">
+      {" "}
+      <i>A_Definir</i>
+    </span>
+  ),
+  instagramProfile: "ramom.tendas", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
+  x: "A_Definir",
+  whatsappDefaultMessage:
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  whatsChatDefaultMessage:
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+  slogan: "",
+};
+
 const content = {
   texts: {
     navbar: {
@@ -56,18 +117,18 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            a_Definir <br className="hidden tablet1:flex desktop1:hidden" />{" "}
+            A_Definir <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
-            strings={["a_Definir1", "a_Definir2", "a_Definir3"]}
+            strings={["A_Definir", "A_Definir", "A_Definir"]}
             className="text-yellow-400 my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            a_Definir
+            A_Definir
           </p>
         </h1>
       ),
-      subtitle: <p>a_Definir</p>,
+      subtitle: <p>A_Definir</p>,
       ctaButtonText: "Falar pelo WhatsApp",
       ctaButtonInstagram: "Falar pelo Instagram",
       images: {
@@ -92,25 +153,25 @@ const content = {
     },
     features: {
       miniTag: "Serviços",
-      title: "a_Definir",
-      subtitle: "a_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       card1: {
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
@@ -137,13 +198,13 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          a_Definir
+          A_Definir
           <br />
           <br />
-          a_Definir
+          A_Definir
           <br />
           <br />
-          a_Definir
+          A_Definir
           <br />
           <br />
           <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
@@ -508,7 +569,7 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: <p className="">a_Definir</p>,
+      title: <p className="">A_Definir</p>,
       subtitle: "#",
       ctaButtonText: "Fale com um atendente",
       link: "",
@@ -545,65 +606,57 @@ const content = {
     },
     steps: {
       miniTag: "Nosso Passo a Passo",
-      title: "a_Definir",
-      subtitle: "a_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "a_Definir",
-          cardDescription: "a_Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "a_Definir",
-          cardDescription: "a_Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "a_Definir",
-          cardDescription: "a_Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "a_Definir",
-          cardDescription: "a_Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     faq: {
       miniTag: "Perguntas Frequentes",
-      title: "a_Definir",
-      subtitle: "a_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question:
-            "a_Definir",
-          answer:
-            "a_Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question:
-            "a_Definir",
-          answer:
-            "a_Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "a_Definir",
-          answer:
-            "a_Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question:
-            "a_Definir",
-          answer:
-            "a_Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question5: {
-          question: "a_Definir",
-          answer:
-            "a_Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question6: {
           question: "A definir",

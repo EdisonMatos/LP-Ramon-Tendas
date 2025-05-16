@@ -27,36 +27,36 @@ export default function Services() {
     <SectionArea className="bg-red-900">
       <SectionHeader
         className="text-center"
-        sectionHeaderTitle="a_Definir"
-        sectionHeaderSubtitle="a_Definir"
+        sectionHeaderTitle="A_Definir"
+        sectionHeaderSubtitle="A_Definir"
         type="dark"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:flex-row">
           <FeatureCard
             img={services.main.card1.img}
-            title="a_Definir"
-            description="a_Definir"
+            title="A_Definir"
+            description="A_Definir"
           />
           <FeatureCard
             img={services.main.card2.img}
-            title="a_Definir"
-            description="a_Definir"
+            title="A_Definir"
+            description="A_Definir"
           />
           <FeatureCard
             img={services.main.card3.img}
-            title="a_Definir"
-            description="a_Definir"
+            title="A_Definir"
+            description="A_Definir"
           />
           <FeatureCard
             img={services.main.card4.img}
-            title="a_Definir"
-            description="a_Definir"
+            title="A_Definir"
+            description="A_Definir"
           />
           <FeatureCard
             img={services.main.card5.img}
-            title="a_Definir"
-            description="a_Definir"
+            title="A_Definir"
+            description="A_Definir"
           />
           <MotionDivDownToUp className="bg-white p-[36px] rounded-2xl desktop1:w-[30%] flex flex-col tablet1:flex-row gap-[36px] desktop1:flex-col w-full h-full">
             <img
@@ -66,10 +66,10 @@ export default function Services() {
             />
             <div className="">
               <h1 className=" font-mainFont font-semibold text-[32px] tablet1:text-title3 desktop2:text-[32px] leading-[36px] mb-[16px]">
-                <MotionDivDownToUp>a_Definir</MotionDivDownToUp>
+                <MotionDivDownToUp>A_Definir</MotionDivDownToUp>
               </h1>
               <p className=" font-secondFont text-paragraph4 mb-[36px] text-quaternary">
-                <MotionDivDownToUp>a_Definir </MotionDivDownToUp>
+                <MotionDivDownToUp>A_Definir </MotionDivDownToUp>
               </p>
               <MotionDivDownToUp>
                 <ServicesModal />
