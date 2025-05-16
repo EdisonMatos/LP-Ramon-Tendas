@@ -2,18 +2,18 @@ import React, { useState, useEffect, useRef } from "react";
 import { Carousel } from "antd";
 import "../../index.css";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
-import imgTestimonial1 from "../../assets/imgs/testimonialsHero/imgTestimonial1.webp";
-import imgTestimonial2 from "../../assets/imgs/testimonialsHero/imgTestimonial2.webp";
-import imgTestimonial3 from "../../assets/imgs/testimonialsHero/imgTestimonial3.webp";
-import imgTestimonial4 from "../../assets/imgs/testimonialsHero/imgTestimonial4.webp";
-import imgTestimonial5 from "../../assets/imgs/testimonialsHero/imgTestimonial5.webp";
-import imgTestimonial6 from "../../assets/imgs/testimonialsHero/imgTestimonial6.webp";
-import imgTestimonial7 from "../../assets/imgs/testimonialsHero/imgTestimonial7.webp";
-import imgTestimonial8 from "../../assets/imgs/testimonialsHero/imgTestimonial8.webp";
-import imgTestimonial9 from "../../assets/imgs/testimonialsHero/imgTestimonial9.webp";
-import imgTestimonial10 from "../../assets/imgs/testimonialsHero/imgTestimonial10.webp";
-import imgTestimonial11 from "../../assets/imgs/testimonialsHero/imgTestimonial11.webp";
-import imgTestimonial12 from "../../assets/imgs/testimonialsHero/imgTestimonial12.webp";
+import imgTestimonial1 from "../../assets/imgs/hero/heroImg1.png";
+import imgTestimonial2 from "../../assets/imgs/hero/heroImg2.png";
+import imgTestimonial3 from "../../assets/imgs/hero/heroImg3.png";
+import imgTestimonial4 from "../../assets/imgs/hero/heroImg4.png";
+import imgTestimonial5 from "../../assets/imgs/hero/heroImg5.png";
+import imgTestimonial6 from "../../assets/imgs/hero/heroImg6.png";
+import imgTestimonial7 from "../../assets/imgs/hero/heroImg7.png";
+import imgTestimonial8 from "../../assets/imgs/hero/heroImg8.png";
+import imgTestimonial9 from "../../assets/imgs/hero/heroImg9.png";
+// import imgTestimonial10 from "../../assets/imgs/hero/heroImg1.png";
+// import imgTestimonial11 from "../../assets/imgs/hero/heroImg1.png";
+// import imgTestimonial12 from "../../assets/imgs/hero/heroImg1.png";
 
 const CarouselHero = () => {
 
@@ -167,7 +167,7 @@ const CarouselHero = () => {
         <div className="carousel-item">
           <img src={imgTestimonial9} alt="Testimonial 9" />
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img src={imgTestimonial10} alt="Testimonial 10" />
         </div>
         <div className="carousel-item">
@@ -175,7 +175,7 @@ const CarouselHero = () => {
         </div>
         <div className="carousel-item">
           <img src={imgTestimonial12} alt="Testimonial 12" />
-        </div>
+        </div> */}
       </Carousel>
 
       {/* Barra de progresso */}

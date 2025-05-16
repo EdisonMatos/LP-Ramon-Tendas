@@ -117,18 +117,24 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            A_Definir <br className="hidden tablet1:flex desktop1:hidden" />{" "}
+            Confie na líder em{" "}
+            <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
-            strings={["A_Definir", "A_Definir", "A_Definir"]}
+            strings={[
+              "estruturas sob medida",
+              "tendas para festas, ",
+              "casamentos e feiras",
+              "cobertura perfeita para seu evento",
+            ]}
             className="text-yellow-400 my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            A_Definir
+            Qualidade e serviço que você merece.
           </p>
         </h1>
       ),
-      subtitle: <p>A_Definir</p>,
+      subtitle: <p></p>,
       ctaButtonText: "Falar pelo WhatsApp",
       ctaButtonInstagram: "Falar pelo Instagram",
       images: {

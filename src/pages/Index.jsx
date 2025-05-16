@@ -20,7 +20,7 @@ export default function Index() {
       <NavbarSection />
       <HeroImgBackground />
       <Features />
-      <Services />
+      {/* <Services /> */}
       <Numbers />
       <About />
       <AboutSocial />

@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <div
       className="w-full h-auto bg-center bg-no-repeat bg-cover font-mainFont"
-      style={{ backgroundImage: `url(${bgHeroImg})` }}
+      style={{ backgroundImage: `url(${content.texts.cta.backgroundImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-50 items-left desktop1:pl desktop3:pl-0">
