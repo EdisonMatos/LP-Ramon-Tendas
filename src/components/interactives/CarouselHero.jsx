@@ -16,7 +16,6 @@ import imgTestimonial9 from "../../assets/imgs/hero/heroImg9.png";
 // import imgTestimonial12 from "../../assets/imgs/hero/heroImg1.png";
 
 const CarouselHero = () => {
-
   const responsiveOptions = [
     {
       breakpoint: 3000,
@@ -98,7 +97,6 @@ const CarouselHero = () => {
 
   return (
     <div className="carousel-container" style={{ position: "relative" }}>
-      
       <div
         onClick={goToPrevSlide}
         style={{
@@ -141,40 +139,76 @@ const CarouselHero = () => {
         className="mb-[80px]"
       >
         <div className="carousel-item ">
-          <img src={imgTestimonial1} className="rounded-[5px] border" alt="Testimonial 1" />
+          <img
+            src={imgTestimonial1}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 1"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial2} className="rounded-[5px] border" alt="Testimonial 2" />
+          <img
+            src={imgTestimonial2}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 2"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial3} className="rounded-[5px] border" alt="Testimonial 3" />
+          <img
+            src={imgTestimonial3}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 3"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial4} className="rounded-[5px] border" alt="Testimonial 4" />
+          <img
+            src={imgTestimonial4}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 4"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial5} className="rounded-[5px] border" alt="Testimonial 5" />
+          <img
+            src={imgTestimonial5}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 5"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial6} className="rounded-[5px] border" alt="Testimonial 6" />
+          <img
+            src={imgTestimonial6}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 6"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial7} className="rounded-[5px] border" alt="Testimonial 7" />
+          <img
+            src={imgTestimonial7}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 7"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial8} className="rounded-[5px] border" alt="Testimonial 8" />
+          <img
+            src={imgTestimonial8}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 8"
+          />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial9} className="rounded-[5px] border" alt="Testimonial 9" />
+          <img
+            src={imgTestimonial9}
+            className="rounded-[5px] border-[15px]"
+            alt="Testimonial 9"
+          />
         </div>
         {/* <div className="carousel-item">
-          <img src={imgTestimonial10 className="rounded-[5px] border"} alt="Testimonial 10" />
+          <img src={imgTestimonial10 className="rounded-[5px] border-[15px]"} alt="Testimonial 10" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial11 className="rounded-[5px] border"} alt="Testimonial 11" />
+          <img src={imgTestimonial11 className="rounded-[5px] border-[15px]"} alt="Testimonial 11" />
         </div>
         <div className="carousel-item">
-          <img src={imgTestimonial12 className="rounded-[5px] border"} alt="Testimonial 12" />
+          <img src={imgTestimonial12 className="rounded-[5px] border-[15px]"} alt="Testimonial 12" />
         </div> */}
       </Carousel>
 

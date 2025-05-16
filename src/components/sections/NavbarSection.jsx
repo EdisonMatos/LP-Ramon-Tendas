@@ -108,15 +108,13 @@ export default function NavbarSection() {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
+                  ? "invert w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
                   : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
-            <div
-              className={"hidden tablet1:flex desktop1:hidden" }
-            >
+            <div className={"hidden tablet1:flex desktop1:hidden"}>
               <ButtonCtaNavbar
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 link={whatsappContactLink}

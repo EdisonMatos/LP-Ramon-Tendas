@@ -9,6 +9,7 @@ const TypewriterComponent = ({ strings, className, style }) => {
           strings: strings,
           autoStart: true,
           loop: true,
+          delay: 50,
         }}
       />
     </div>

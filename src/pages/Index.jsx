@@ -13,6 +13,7 @@ import HowItWorksImage from "../components/sections/HowItWorksImage";
 import Numbers from "../components/sections/Numbers";
 import Services from "../components/sections/Services";
 import AboutSocial from "../components/sections/AboutSocial";
+import GoogleMaps from "../components/sections/GoogleMaps";
 
 export default function Index() {
   return (
@@ -26,6 +27,7 @@ export default function Index() {
       <AboutSocial />
       <CtaWhatsapp />
       <HowItWorksImage />
+      <GoogleMaps />
       <Faq />
       <Footer />
       <FloatingWhatsappButton />

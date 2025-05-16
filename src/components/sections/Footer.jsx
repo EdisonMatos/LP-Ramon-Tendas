@@ -15,7 +15,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function Footer() {
   return (
-    <footer className="bg-secondary full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-primary full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
@@ -240,6 +240,7 @@ function Footer() {
                               id="svg4"
                               width="20"
                               height="20"
+                              className=""
                             >
                               <defs id="defs8" />
                               <path
@@ -264,7 +265,7 @@ function Footer() {
                               viewBox="0 0 24 24"
                               fill=""
                               stroke="currentColor"
-                              stroke-width="2"
+                              stroke-width="1"
                               stroke-linecap="round"
                               stroke-linejoin="round"
                               class="lucide lucide-linkedin"

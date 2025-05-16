@@ -90,7 +90,7 @@ export default function About() {
             buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
-            icon={<FaWhatsapp size={24} />}
+            icon={<FaWhatsapp size={24} className="text-white" />}
           />
         </div>
       </div>
@@ -189,7 +189,7 @@ export default function About() {
               removeAnchor={true}
               removeTarget={true}
               animation={true}
-              icon={<MoveRight />}
+              icon={<MoveRight className="text-white" />}
             />
           </MotionDivDownToUp>
         </div>

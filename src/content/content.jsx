@@ -1,6 +1,6 @@
 import links from "./links";
 import logo from "../assets/imgs/logo/logo.png";
-import logoDark from "../assets/imgs/logo/logoDark.webp";
+import logoDark from "../assets/imgs/logo/logo.png";
 import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
@@ -10,12 +10,12 @@ import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
-import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
-import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg"
+import featuresImg5 from "../assets/imgs/features/featuresImg5.jpg";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -120,20 +120,19 @@ const content = {
       title: (
         <h1 className="">
           <span className="text-white">
-            Confie na líder em{" "}
+            Líder em
             <br className="hidden tablet1:flex desktop1:hidden" />{" "}
           </span>
           <TypewriterComponent
             strings={[
-              "estruturas sob medida",
               "tendas para festas, ",
+              "estruturas sob medida,",
               "casamentos e feiras",
-              "cobertura perfeita para seu evento",
             ]}
-            className="text-yellow-400 my-typewriter"
+            className="text-white my-typewriter"
           />
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
-            Qualidade e serviço que você merece.
+            Padrão de excelência e qualidade que você merece!
           </p>
         </h1>
       ),
@@ -163,58 +162,59 @@ const content = {
     features: {
       miniTag: "TENDAS PARA TODO TIPO DE EVENTO",
       title: "Coberturas sob medida para cada ocasião",
-      subtitle: "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
+      subtitle:
+        "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
       card1: {
         title: "Tenda Piramidal Comum",
         subtitle: "",
         img: featuresImg1,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
         title: "Tenda Piramidal Cristal",
         subtitle: "",
         img: featuresImg2,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
         title: "Tenda Piramidal Personalizada",
         subtitle: "",
         img: featuresImg3,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card4: {
         title: "Locação de Tendas",
         subtitle: "",
         img: featuresImg4,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card5: {
         title: "Sombreadores Sob Medida",
         subtitle: "",
         img: featuresImg5,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card6: {
         title: "Tenda Sanfonada Personalizada",
         subtitle: "",
         img: featuresImg6,
-        buttonLabel: "Orçamento",
+        buttonLabel: "Pedir orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
     },
     numbers: {
       backgroundImg: numbersImgBg,
-      number1: 30,
+      number1: 6,
       number1Description: "Anos no mercado",
-      number2: 650,
-      number2Description: "Apólices geridas anualmente",
-      number3: 96,
-      number3Description: "De índice de renovação",
+      number2: 20,
+      number2Description: "Tipos de tendas",
+      number3: 100,
+      number3Description: "Satisfação dos clientes",
     },
     about: {
       imagem: {
@@ -644,9 +644,9 @@ const content = {
             "Atendemos uma ampla variedade de eventos, incluindo casamentos, aniversários, festas corporativas, feiras, shows e eventos comunitários. Nossas tendas são versáteis e podem ser adaptadas para diferentes ocasiões.",
         },
         question2: {
-          question: "Como posso solicitar um orçamento?",
+          question: "Como posso solicitar um Pedir orçamento?",
           answer:
-            "Para receber um orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
+            "Para receber um Pedir orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
         },
         question3: {
           question: "Vocês oferecem montagem e desmontagem das tendas?",
