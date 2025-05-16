@@ -6,7 +6,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import links from "../../content/links";
 import content from "../../content/content";
-import SectionShapeDiv from "../../components/sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
