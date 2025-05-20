@@ -1,7 +1,7 @@
 import links from "./links";
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import logoDark from "../assets/imgs/logo/logo.png";
-import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.png";
+import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.webp";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
@@ -9,15 +9,15 @@ import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
-import featuresImg5 from "../assets/imgs/features/featuresImg5.jpg";
-import featuresImg6 from "../assets/imgs/features/featuresImg6.jpg";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.webp";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.webp";
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
@@ -25,7 +25,7 @@ import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 import MotionDivDownToUp from "../components/animation/MotionDivDownToUp";
 import TypewriterComponent from "../components/animation/TypeWriter";
 import ButtonWithIconNavbar from "../components/interactives/ButtonWithIconNavbar";
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import imgTestimonial1 from "../assets/imgs/testimonialsHero/imgTestimonial1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonialsHero/imgTestimonial2.webp";
@@ -168,42 +168,42 @@ const content = {
         title: "Tenda Piramidal Comum",
         subtitle: "",
         img: featuresImg1,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
         title: "Tenda Piramidal Cristal",
         subtitle: "",
         img: featuresImg2,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
         title: "Tenda Piramidal Personalizada",
         subtitle: "",
         img: featuresImg3,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card4: {
         title: "Locação de Tendas",
         subtitle: "",
         img: featuresImg4,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card5: {
-        title: "Sombreadores Sob Medida",
+        title: "Tenda Sanfonada Personalizada",
         subtitle: "",
         img: featuresImg5,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card6: {
-        title: "Tenda Sanfonada Personalizada",
+        title: "Fabricação de Tendas",
         subtitle: "",
         img: featuresImg6,
-        buttonLabel: "Pedir orçamento",
+        buttonLabel: "Orçamento",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
     },
@@ -224,20 +224,18 @@ const content = {
       miniTag: "QUEM É A RAMOM TENDAS",
       title: "Nossa história",
       subtitle:
-        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção. ",
+        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas.",
       paragraph: (
         <div>
           Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
-          como uma referência em vendas e fabricação de tendas, além de atuar
-          com excelência em projetos de urbanismo e construção.
+          como uma referência em vendas e fabricação de tendas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
           Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
-          como uma referência em vendas e fabricação de tendas, além de atuar
-          com excelência em projetos de urbanismo e construção.
+          como uma referência em vendas e fabricação de tendas.
           <br />
           <br />
           Nossa missão é oferecer soluções práticas, duráveis e acessíveis,
@@ -559,7 +557,7 @@ const content = {
       miniTag: "FALE CONOSCO",
       title: (
         <p className="">
-          Precisa de tendas ou construção? Fale com a Ramom Tendas!
+          Precisa de locação ou fabricação de tendas? Fale com a Ramom Tendas!
         </p>
       ),
       subtitle:
@@ -608,7 +606,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Primeiro contato",
           cardDescription:
-            "Conversamos com você para entender sua necessidade — seja tenda, obra ou projeto urbano.",
+            "Conversamos com você para entender sua necessidade.",
         },
         card2: {
           stepNumber: 2,
@@ -641,9 +639,9 @@ const content = {
             "Atendemos uma ampla variedade de eventos, incluindo casamentos, aniversários, festas corporativas, feiras, shows e eventos comunitários. Nossas tendas são versáteis e podem ser adaptadas para diferentes ocasiões.",
         },
         question2: {
-          question: "Como posso solicitar um Pedir orçamento?",
+          question: "Como posso solicitar um Orçamento?",
           answer:
-            "Para receber um Pedir orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
+            "Para receber um Orçamento personalizado, envie-nos as seguintes informações: data do evento, local de montagem, tipo de evento, número estimado de convidados e quaisquer necessidades específicas, como decoração ou equipamentos adicionais. Com esses dados, nossa equipe preparará uma proposta sob medida para você.",
         },
         question3: {
           question: "Vocês oferecem montagem e desmontagem das tendas?",
