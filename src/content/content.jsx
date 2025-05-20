@@ -9,12 +9,12 @@ import trustedByImg4 from "../assets/imgs/trustedBy/item4.webp";
 import trustedByImg5 from "../assets/imgs/trustedBy/item5.webp";
 import trustedByImg6 from "../assets/imgs/trustedBy/item6.webp";
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
-import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import featuresImg5 from "../assets/imgs/features/featuresImg5.png";
-import featuresImg6 from "../assets/imgs/features/featuresImg6.png";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.webp";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.webp";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.webp";
+import featuresImg5 from "../assets/imgs/features/featuresImg5.webp";
+import featuresImg6 from "../assets/imgs/features/featuresImg6.webp";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutImgMobile1 from "../assets/imgs/about/aboutImgMobile.webp";
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgparalaxe.png";
@@ -606,7 +606,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Primeiro contato",
           cardDescription:
-            "Conversamos com você para entender sua necessidade — seja tenda, obra ou projeto urbano.",
+            "Conversamos com você para entender sua necessidade.",
         },
         card2: {
           stepNumber: 2,
