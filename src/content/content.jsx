@@ -224,20 +224,18 @@ const content = {
       miniTag: "QUEM É A RAMOM TENDAS",
       title: "Nossa história",
       subtitle:
-        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas e construção. ",
+        "Conheça os pilares que guiam a Ramom Tendas no mercado de tendas.",
       paragraph: (
         <div>
           Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
-          como uma referência em vendas e fabricação de tendas, além de atuar
-          com excelência em projetos de urbanismo e construção.
+          como uma referência em vendas e fabricação de tendas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
           Com 6 anos de experiência no mercado, a Ramom Tendas se consolidou
-          como uma referência em vendas e fabricação de tendas, além de atuar
-          com excelência em projetos de urbanismo e construção.
+          como uma referência em vendas e fabricação de tendas.
           <br />
           <br />
           Nossa missão é oferecer soluções práticas, duráveis e acessíveis,
