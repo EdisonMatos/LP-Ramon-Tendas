@@ -557,7 +557,7 @@ const content = {
       miniTag: "FALE CONOSCO",
       title: (
         <p className="">
-          Precisa de tendas ou construção? Fale com a Ramom Tendas!
+          Precisa de locação ou fabricação de tendas? Fale com a Ramom Tendas!
         </p>
       ),
       subtitle:
