@@ -80,7 +80,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira:</p>
-      <p>A_Definirh</p>
+      <p>A_Definir</p>
     </div>
   ),
 
