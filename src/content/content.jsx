@@ -80,7 +80,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira:</p>
-      <p>A_Definirh</p>
+      <p>A_Definir</p>
     </div>
   ),
 
@@ -118,19 +118,18 @@ const content = {
     },
     hero: {
       title: (
-        <h1 className="">
-          <span className="text-white">
-            Líder em
-            <br className="hidden tablet1:flex desktop1:hidden" />{" "}
-          </span>
-          <TypewriterComponent
-            strings={[
-              "tendas para festas, ",
-              "estruturas sob medida,",
-              "casamentos e feiras",
-            ]}
-            className="text-white my-typewriter"
-          />
+        <h1 className=" flex-col">
+          <div className="flex justify-center gap-1 desktop1:flex-col">
+            <span className="text-white">Líder em</span>
+            <TypewriterComponent
+              strings={[
+                "tendas para festas, ",
+                "estruturas sob medida,",
+                "casamentos e feiras",
+              ]}
+              className="text-white my-typewriter"
+            />
+          </div>
           <p className="mt-[16px] font-medium text-paragraph4 font-secondFont leading-[28px]">
             Padrão de excelência e qualidade que você merece!
           </p>
@@ -163,7 +162,7 @@ const content = {
       miniTag: "TENDAS PARA TODO TIPO DE EVENTO",
       title: "Coberturas sob medida para cada ocasião",
       subtitle:
-        "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você ficar despreocupado.",
+        "Seja para festa, feira ou cobertura temporária, temos a estrutura certa para você.",
       card1: {
         title: "Tenda Piramidal Comum",
         subtitle: "",

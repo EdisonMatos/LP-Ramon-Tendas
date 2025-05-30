@@ -100,7 +100,7 @@ function Footer() {
                   </div>
                   <p>
                     Segunda à Sexta: 08:00 às 18:00 <br />
-                    Sábado e Domingo: FECHADO
+                    Sábado, domingo e feriados: FECHADO{" "}
                   </p>
                 </div>
               </MotionDivDownToUp>
