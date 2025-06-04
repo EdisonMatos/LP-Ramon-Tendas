@@ -105,7 +105,7 @@ const CarouselHero = () => {
           left: "-10px",
           transform: "translateY(-50%)",
           fontSize: "32px",
-          color: "#facc15",
+          color: "#88040F",
           zIndex: 10,
           cursor: "pointer",
         }}
@@ -121,7 +121,7 @@ const CarouselHero = () => {
           right: "-10px",
           transform: "translateY(-50%)",
           fontSize: "32px",
-          color: "#facc15",
+          color: "#88040F",
           zIndex: 10,
           cursor: "pointer",
         }}
