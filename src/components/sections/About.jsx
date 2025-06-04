@@ -89,7 +89,7 @@ export default function About() {
             label={content.texts.about.ctaButtonText}
             buttonLink={whatsappContactLink}
             animation={false}
-            className="hover:scale-105"
+            className="text-white hover:scale-105"
             icon={<FaWhatsapp size={24} className="text-white" />}
           />
         </div>
