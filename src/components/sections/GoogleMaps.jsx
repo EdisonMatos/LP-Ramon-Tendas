@@ -8,13 +8,13 @@ import links from "../../content/links";
 
 export default function GoogleMaps() {
   return (
-    <SectionArea id={"map"} className="bg-white" paddingtop={false}>
+    <SectionArea id={"map"} className="bg-primary" paddingtop={false}>
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Saiba como nos encontrar"
         sectionHeaderSubtitle="Utilize o mapa abaixo para chegar até nós!"
         miniTitle="Google Maps"
-        color="dark"
+        color=""
       />
 
       <SectionWrapper className="flex justify-center">

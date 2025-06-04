@@ -10,6 +10,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
 import { FaWhatsapp } from "react-icons/fa";
 import { CalendarCheck2 } from "lucide-react";
 import { MapPin } from "lucide-react";
+import { FileText } from "lucide-react";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -102,6 +103,16 @@ function Footer() {
                     Segunda à Sexta: 08:00 às 18:00 <br />
                     Sábado, domingo e feriados: FECHADO{" "}
                   </p>
+                </div>
+              </MotionDivDownToUp>
+
+              {/* cnpj */}
+              <MotionDivDownToUp>
+                <div className="flex full gap-x-[12px] items-center opacity-90">
+                  <div>
+                    <FileText />
+                  </div>
+                  <p>CNPJ 47.028.524/0001-54</p>
                 </div>
               </MotionDivDownToUp>
 

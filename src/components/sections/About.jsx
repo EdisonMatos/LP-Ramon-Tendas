@@ -99,7 +99,7 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
+    <SectionArea id="about" className="bg-primary">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -175,7 +175,7 @@ export default function About() {
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color="dark"
+            color=""
             type="article"
           />
           <MotionDivDownToUp>
@@ -183,13 +183,14 @@ export default function About() {
               <AboutFading />
             </Paragraphs>
             <Button
-              className="mt-[48px]"
+              className="mt-[48px] text-primary"
               label={content.texts.about.buttonModalLabelAbout}
               onClick={onClick}
+              color="bg-white"
               removeAnchor={true}
               removeTarget={true}
               animation={true}
-              icon={<MoveRight className="text-white" />}
+              icon={<MoveRight className="text-primary " />}
             />
           </MotionDivDownToUp>
         </div>

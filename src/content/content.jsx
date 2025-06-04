@@ -123,8 +123,8 @@ const content = {
             <span className="text-white">Líder em</span>
             <TypewriterComponent
               strings={[
-                "tendas para festas, ",
-                "estruturas sob medida,",
+                "tendas para festas ",
+                "estruturas sob medida",
                 "casamentos e feiras",
               ]}
               className="text-white my-typewriter"

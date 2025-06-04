@@ -22,15 +22,15 @@ export default function SectionHeader({
 }) {
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-secondary";
+    miniTitleTextColor = "text-lighter";
     titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
   } else {
-    miniTitleTextColor = "text-lighter";
+    miniTitleTextColor = "text-primary";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-black bg-opacity-30";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-white";
   }
 
   // Configurações baseadas no tipo
