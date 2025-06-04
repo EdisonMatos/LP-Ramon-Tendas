@@ -6,13 +6,13 @@ import content from "../../content/content";
 
 export default function Features() {
   return (
-    <SectionArea id={"service"} className=" bg-quinary ">
+    <SectionArea id={"service"} className=" bg-primary ">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
         miniTitle={content.texts.features.miniTag}
-        color="dark"
+        color=""
       />
 
       <SectionWrapper>
