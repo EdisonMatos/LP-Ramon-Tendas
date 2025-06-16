@@ -49,13 +49,15 @@ export default function HowItWorksImage() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color="dark"
             type="article"
+            miniTitleBgColor={false}
+            miniTitleTextColor="text-primary"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
+            color="dark"
             type=""
             miniTitleBgColor={false}
             miniTitleTextColor="text-primary"
