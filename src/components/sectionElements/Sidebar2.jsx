@@ -52,10 +52,10 @@ export default function HeadlessDemo() {
         } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
-      <div className="flex justify-center card">
+      <div className="flex justify-center card bg-pr">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-black" : "text-white"
+            scrolled ? "text-primary" : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
