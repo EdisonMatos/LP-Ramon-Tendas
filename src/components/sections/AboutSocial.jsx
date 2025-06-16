@@ -20,7 +20,7 @@ export default function AboutSocial() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-white" paddingtop={false}>
+    <SectionArea id="about" className="bg-primary" paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <img
@@ -40,7 +40,7 @@ export default function AboutSocial() {
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               // sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color="dark"
+              color=""
               type="article"
             />
           </MotionDivDownToUp>
@@ -52,10 +52,10 @@ export default function AboutSocial() {
 
           <MotionDivDownToUp>
             <Button
-              color="bg-primary"
+              color="bg-white"
               label="Siga-nos no Instagram"
               buttonLink={links.socialMedia.instagram}
-              className="text-white"
+              textclassName="text-white"
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export default function AboutSocial() {
                   height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#fff"
+                  stroke="#88040F"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -79,9 +79,8 @@ export default function AboutSocial() {
 
           <MotionDivDownToUp className="mt-[18px]">
             <Button
-              color="bg-primary"
+              color="bg-white"
               label="Siga-nos no Facebook"
-              className="text-white"
               buttonLink={links.socialMedia.facebook}
               icon={
                 <svg
@@ -90,7 +89,7 @@ export default function AboutSocial() {
                   height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#fff"
+                  stroke="#88040F"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -104,9 +103,8 @@ export default function AboutSocial() {
 
           <MotionDivDownToUp className="mt-[18px]">
             <Button
-              color="bg-primary"
+              color="bg-white"
               label="Siga-nos no X"
-              className="text-white"
               buttonLink={links.socialMedia.x}
               icon={
                 <svg
@@ -116,7 +114,7 @@ export default function AboutSocial() {
                   width="20"
                   height="20"
                   color="white"
-                  stroke="#fff"
+                  stroke="#88040F"
                 >
                   <defs id="defs8" />
                   <path
