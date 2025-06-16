@@ -245,7 +245,7 @@ function Footer() {
                           icon={
                             <svg
                               viewBox="0 0 21.573 19.5"
-                              fill=""
+                              fill="transparent"
                               stroke="currentColor"
                               version="1.1"
                               id="svg4"
@@ -274,7 +274,7 @@ function Footer() {
                               width="20"
                               height="20"
                               viewBox="0 0 24 24"
-                              fill=""
+                              fill="transparent"
                               stroke="currentColor"
                               stroke-width="1"
                               stroke-linecap="round"
