@@ -22,11 +22,11 @@ function Footer() {
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <MotionDivDownToUp>
-                <div className="h-[115px] flex justify-start items-center">
+                <div className="h-[115px] flex justify-start items-center ">
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto"
+                    className="max-h-[115px] w-auto p-3 object-contain bg-white rounded-md"
                   ></img>
                 </div>
               </MotionDivDownToUp>
@@ -245,7 +245,7 @@ function Footer() {
                           icon={
                             <svg
                               viewBox="0 0 21.573 19.5"
-                              fill=""
+                              fill="transparent"
                               stroke="currentColor"
                               version="1.1"
                               id="svg4"
@@ -274,7 +274,7 @@ function Footer() {
                               width="20"
                               height="20"
                               viewBox="0 0 24 24"
-                              fill=""
+                              fill="transparent"
                               stroke="currentColor"
                               stroke-width="1"
                               stroke-linecap="round"

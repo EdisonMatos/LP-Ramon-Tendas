@@ -20,7 +20,7 @@ export default function HowItWorksImage() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-primary">
+    <SectionArea className="bg-white">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -47,16 +47,20 @@ export default function HowItWorksImage() {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
+            color="dark"
             type="article"
+            miniTitleBgColor={false}
+            miniTitleTextColor="text-primary"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
+            color="dark"
             type=""
+            miniTitleBgColor={false}
+            miniTitleTextColor="text-primary"
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">

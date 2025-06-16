@@ -34,13 +34,15 @@ export default function CtaWhatsapp() {
               sectionHeaderTitle={content.texts.cta.title}
               sectionHeaderSubtitle={content.texts.cta.subtitle}
               color=""
+              miniTitleBgColor="bg-primary"
+              miniTitleTextColor="text-white"
             />
             <Button
               aria-label={content.texts.hero.ctaButtonAriaLabel}
               label={content.texts.cta.ctaButtonText}
               buttonLink={`https://wa.me/${links.ctaWhatsapp}`}
               animation
-              className="text-white"
+              className="text-white bg-whatsapp "
               icon={<FaWhatsapp size={24} className="text-white" />}
             />
           </SectionWrapper>

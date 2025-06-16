@@ -14,6 +14,7 @@ module.exports = {
         lighter: "#FFFFFF",
         ctaCollor: "#FACC15",
         darker: "#000000",
+        whatsapp: "#25D366",
       },
       fontFamily: {
         mainFont: ["Keep Calm", "sans-serif"],

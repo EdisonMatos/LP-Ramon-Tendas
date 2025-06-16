@@ -1,4 +1,3 @@
-
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function SectionHeader({
@@ -10,7 +9,7 @@ export default function SectionHeader({
   miniTitle,
   miniTitleSpace,
   color,
-  miniTitleBgColor = true, // Valor padrão
+  miniTitleBgColor, // Agora aceita string ou false
   miniTitleTextColor,
   usage,
   type,
@@ -20,17 +19,28 @@ export default function SectionHeader({
   marginBottomOption,
   animation = true,
 }) {
+  let miniTitleBgClass = ""; // Classe real do fundo
+  let computedMiniTitleTextColor = miniTitleTextColor; // Cor do texto
+
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-lighter";
-    titleColor = "text-bgSectionDark";
-    subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
+    titleColor = titleColor || "text-bgSectionDark";
+    subtitleColor = subtitleColor || "text-darker opacity-70";
+
+    if (!miniTitleTextColor) computedMiniTitleTextColor = "text-lighter";
+
+    if (miniTitleBgColor === undefined) miniTitleBgClass = "bg-primary";
+    else if (typeof miniTitleBgColor === "string")
+      miniTitleBgClass = miniTitleBgColor;
   } else {
-    miniTitleTextColor = "text-primary";
-    titleColor = "text-lighter";
-    subtitleColor = "text-lighter text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-white";
+    titleColor = titleColor || "text-lighter";
+    subtitleColor = subtitleColor || "text-lighter text-opacity-80";
+
+    if (!miniTitleTextColor) computedMiniTitleTextColor = "text-primary";
+
+    if (miniTitleBgColor === undefined) miniTitleBgClass = "bg-white";
+    else if (typeof miniTitleBgColor === "string")
+      miniTitleBgClass = miniTitleBgColor;
   }
 
   // Configurações baseadas no tipo
@@ -45,19 +55,16 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  // Remover o background se miniTitleBgColor for false
-  if (!miniTitleBgColor) {
-    miniTitleBgColor = ""; // Sem classe de background
-  }
-
   const Content = (
     <div className={`${usage} ${className}`}>
       <div>
         <div className={`${miniTitleSpace}`}>
           <div
-            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgClass}`}
           >
-            <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
+            <p className={`${computedMiniTitleTextColor} uppercase`}>
+              {miniTitle}
+            </p>
           </div>
         </div>
         <h1
