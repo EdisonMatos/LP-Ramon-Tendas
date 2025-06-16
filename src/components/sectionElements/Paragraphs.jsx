@@ -9,7 +9,7 @@ export default function Paragraphs({ children, className }) {
   const childrenArray = Children.toArray(children);
   return (
     <div
-      className={`font-secondFont text-paragraph4 text-white opacity-75 ${className}`}
+      className={`font-secondFont text-paragraph4 text-black opacity-75 ${className}`}
     >
       {childrenArray}
     </div>

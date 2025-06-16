@@ -99,7 +99,7 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-primary">
+    <SectionArea id="about" className="bg-white">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -115,7 +115,7 @@ export default function About() {
             // style={{
             //   backgroundImage: `url(${content.texts.about.imagem.img})`,
             // }}
-            className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[740px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-auto desktop1:h-[467px] rounded-xl"
           >
             <ImageGallery
               items={images}
@@ -175,7 +175,7 @@ export default function About() {
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color=""
+            color="dark"
             type="article"
           />
           <MotionDivDownToUp>
@@ -183,14 +183,14 @@ export default function About() {
               <AboutFading />
             </Paragraphs>
             <Button
-              className="mt-[48px] text-primary"
+              className="mt-[48px] text-white"
               label={content.texts.about.buttonModalLabelAbout}
               onClick={onClick}
-              color="bg-white"
+              color="bg-primary"
               removeAnchor={true}
               removeTarget={true}
               animation={true}
-              icon={<MoveRight className="text-primary " />}
+              icon={<MoveRight className="text-white " />}
             />
           </MotionDivDownToUp>
         </div>
