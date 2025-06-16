@@ -26,7 +26,7 @@ function Footer() {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[115px] w-auto p-3 object-contain bg-white"
+                    className="max-h-[115px] w-auto p-3 object-contain bg-white rounded-md"
                   ></img>
                 </div>
               </MotionDivDownToUp>

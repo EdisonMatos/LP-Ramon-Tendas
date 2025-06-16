@@ -33,7 +33,7 @@ export default function ListGroup() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-primary transition-color duration-1000"
+        scrolling ? "" : "text-white transition-color duration-1000"
       }`}
     >
       <li className="transition group">
@@ -48,14 +48,14 @@ export default function ListGroup() {
         >
           <span
             className={`h-[24px] inline-block ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-white"
             }`}
           >
             {content.texts.navbar.menuItems[0]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-white"
             }`}
           ></div>
         </Link>
@@ -72,14 +72,14 @@ export default function ListGroup() {
         >
           <span
             className={`h-[24px] inline-block ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-white"
             }`}
           >
             {content.texts.navbar.menuItems[2]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-white"
             }`}
           ></div>
         </Link>
@@ -96,14 +96,14 @@ export default function ListGroup() {
         >
           <span
             className={`h-[24px] inline-block ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-white"
             }`}
           >
             {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-white"
             }`}
           ></div>
         </Link>
@@ -120,14 +120,14 @@ export default function ListGroup() {
         >
           <span
             className={`h-[24px] inline-block ${
-              scrolling ? "hover:text-primary" : "hover:text-primary"
+              scrolling ? "hover:text-primary" : "hover:text-white"
             }`}
           >
             {content.texts.navbar.menuItems[3]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-primary"
+              scrolling ? "bg-primary" : "bg-white"
             }`}
           ></div>
         </Link>

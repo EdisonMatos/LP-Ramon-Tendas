@@ -90,7 +90,7 @@ export default function NavbarSection() {
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
             ? "bg-white bg-opacity-100 shadow-lg transition-all duration-1000"
-            : "bg-white transition-colors duration-1000"
+            : "transition-colors duration-1000"
         }`}
       >
         <Navbar>
@@ -109,7 +109,7 @@ export default function NavbarSection() {
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
-                  : "my-[5px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
+                  : "bg-white p-3 rounded-md my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
