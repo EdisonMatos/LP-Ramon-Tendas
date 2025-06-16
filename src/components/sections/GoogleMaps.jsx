@@ -8,7 +8,7 @@ import links from "../../content/links";
 
 export default function GoogleMaps() {
   return (
-    <SectionArea id={"map"} className="bg-primary" paddingtop={false}>
+    <SectionArea id={"map"} className="bg-primary">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Saiba como nos encontrar"

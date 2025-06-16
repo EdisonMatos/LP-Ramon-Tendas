@@ -9,8 +9,8 @@ export default function SectionHeader({
   miniTitle,
   miniTitleSpace,
   color,
-  miniTitleBgColor = true, // Valor booleano padrão
-  miniTitleTextColor, // Agora é controlável
+  miniTitleBgColor, // Agora aceita string ou false
+  miniTitleTextColor,
   usage,
   type,
   titleOrientation,
@@ -19,8 +19,8 @@ export default function SectionHeader({
   marginBottomOption,
   animation = true,
 }) {
-  let miniTitleBgClass = ""; // Classe do fundo
-  let computedMiniTitleTextColor = miniTitleTextColor; // Classe da cor do texto
+  let miniTitleBgClass = ""; // Classe real do fundo
+  let computedMiniTitleTextColor = miniTitleTextColor; // Cor do texto
 
   // Configurações baseadas na cor
   if (color === "dark") {
@@ -28,13 +28,19 @@ export default function SectionHeader({
     subtitleColor = subtitleColor || "text-darker opacity-70";
 
     if (!miniTitleTextColor) computedMiniTitleTextColor = "text-lighter";
-    if (miniTitleBgColor) miniTitleBgClass = "bg-primary";
+
+    if (miniTitleBgColor === undefined) miniTitleBgClass = "bg-primary";
+    else if (typeof miniTitleBgColor === "string")
+      miniTitleBgClass = miniTitleBgColor;
   } else {
     titleColor = titleColor || "text-lighter";
     subtitleColor = subtitleColor || "text-lighter text-opacity-80";
 
     if (!miniTitleTextColor) computedMiniTitleTextColor = "text-primary";
-    if (miniTitleBgColor) miniTitleBgClass = "bg-white";
+
+    if (miniTitleBgColor === undefined) miniTitleBgClass = "bg-white";
+    else if (typeof miniTitleBgColor === "string")
+      miniTitleBgClass = miniTitleBgColor;
   }
 
   // Configurações baseadas no tipo
