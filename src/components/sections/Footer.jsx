@@ -24,9 +24,9 @@ function Footer() {
               <MotionDivDownToUp>
                 <div className="h-[115px] flex justify-start items-center ">
                   <img
-                    src={content.texts.navbar.logo.img}
-                    alt={content.texts.navbar.logo.alt}
-                    className="max-h-[115px] w-auto p-3 object-contain bg-white rounded-md"
+                    src={content.texts.navbar.logo2.img}
+                    alt={content.texts.navbar.logo2.alt}
+                    className="max-h-[115px] w-auto p-3 object-contain"
                   ></img>
                 </div>
               </MotionDivDownToUp>
