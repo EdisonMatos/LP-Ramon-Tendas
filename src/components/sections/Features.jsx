@@ -13,8 +13,7 @@ export default function Features() {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         miniTitle={content.texts.features.miniTag}
         color="dark"
-        miniTitleBgColor={false}
-        miniTitleTextColor="text-primary"
+        miniTitleTextColor="text-white"
       />
 
       <SectionWrapper>
