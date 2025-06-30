@@ -124,8 +124,8 @@ const content = {
     hero: {
       title: (
         <h1 className=" flex-col">
-          <div className="flex justify-center gap-1 desktop1:flex-col">
-            <span className="text-white">Líder em</span>
+          <div className="flex justify-center gap-1 desktop1:gap-4 desktop1:flex">
+            <span className="text-white">Líder em </span>
             <TypewriterComponent
               strings={[
                 "tendas para festas ",
