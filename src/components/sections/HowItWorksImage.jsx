@@ -49,8 +49,7 @@ export default function HowItWorksImage() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color="dark"
             type="article"
-            miniTitleBgColor={false}
-            miniTitleTextColor="text-primary"
+            miniTitleTextColor="text-white"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -59,8 +58,7 @@ export default function HowItWorksImage() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color="dark"
             type=""
-            miniTitleBgColor={false}
-            miniTitleTextColor="text-primary"
+            miniTitleTextColor="text-white"
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">

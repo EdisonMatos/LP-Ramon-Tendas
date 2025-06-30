@@ -1,5 +1,6 @@
 import links from "./links";
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
+import logo2 from "../assets/imgs/logo/logoWhite.webp";
 import logoDark from "../assets/imgs/logo/logo.png";
 import aboutSocialImgBackground from "../assets/imgs/about/aboutImg.webp";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
@@ -104,6 +105,10 @@ export const infos = {
 const content = {
   texts: {
     navbar: {
+      logo2: {
+        img: logo2,
+        alt: "Logo Branca",
+      },
       logo: {
         img: logo,
         alt: "Logo",
@@ -119,8 +124,8 @@ const content = {
     hero: {
       title: (
         <h1 className=" flex-col">
-          <div className="flex justify-center gap-1 desktop1:flex-col">
-            <span className="text-white">Líder em</span>
+          <div className="flex justify-center gap-1 desktop1:gap-4 desktop1:flex">
+            <span className="text-white">Líder em </span>
             <TypewriterComponent
               strings={[
                 "tendas para festas ",

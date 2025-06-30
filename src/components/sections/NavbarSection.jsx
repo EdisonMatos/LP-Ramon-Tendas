@@ -104,12 +104,16 @@ export default function NavbarSection() {
             href="#"
           >
             <img
-              src={content.texts.navbar.logo.img}
+              src={
+                scrolling
+                  ? content.texts.navbar.logo.img // Logo ao rolar
+                  : content.texts.navbar.logo2.img // Logo padrão
+              }
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] transition-all duration-1000"
-                  : "bg-white p-3 rounded-md my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
+                  : " my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
