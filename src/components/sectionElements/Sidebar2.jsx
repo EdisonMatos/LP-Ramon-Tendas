@@ -75,7 +75,7 @@ export default function HeadlessDemo() {
                     <img
                       src={content.texts.navbar.logoDark.img}
                       alt={content.texts.navbar.logoDark.alt}
-                      className="w-[200px] h-auto p-[5px] invert"
+                      className="w-[200px] h-auto p-[5px]"
                     />
                   </span>
                   <span>
