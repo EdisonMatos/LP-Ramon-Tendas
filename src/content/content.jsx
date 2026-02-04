@@ -190,7 +190,7 @@ const content = {
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre os serviços de vocês.`,
       },
       card4: {
-        title: 'Locação de Tendas',
+        title: 'Tendas Pronta Entrega',
         subtitle: '',
         img: featuresImg4,
         buttonLabel: 'Orçamento',
