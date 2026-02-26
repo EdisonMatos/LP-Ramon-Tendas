@@ -14,12 +14,14 @@ import Numbers from "../components/sections/Numbers";
 import Services from "../components/sections/Services";
 import AboutSocial from "../components/sections/AboutSocial";
 import GoogleMaps from "../components/sections/GoogleMaps";
+import Ofertas from "../components/sections/Ofertas";
 
 export default function Index() {
   return (
     <div>
       <NavbarSection />
       <HeroImgBackground />
+      <Ofertas />
       <Features />
       {/* <Services /> */}
       <Numbers />
