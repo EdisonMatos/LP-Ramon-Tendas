@@ -206,3 +206,38 @@
     top: 15px;
   }
 }
+
+.p-carousel-indicator {
+  width: 15px !important;
+  height: 15px !important;
+  margin: 4px !important;
+  border-radius: 100% !important;
+}
+
+.p-carousel-prev-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.p-carousel-prev-icon {
+  transition: all 0.5s ease;
+}
+
+.p-carousel-prev-icon:hover {
+  transform: scale(0.9);
+}
+
+.p-carousel-next-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.p-carousel-next-icon {
+  transition: all 0.5s ease;
+}
+
+.p-carousel-next-icon:hover {
+  transform: scale(0.9);
+}
