@@ -60,15 +60,13 @@ function Ofertas() {
             autoplayInterval={5000}
           />
         </div>
-        <h1 className="text-center text-white font-medium text-title2 mb-4 font-secondFont">
-          ⚠️ ATENÇÃO: Esta condição especial encerra em:
+        <h1 className="text-center text-white font-medium text-paragraph3 tablet1:text-title2 mb-4 font-secondFont">
+          ⚠️ ATENÇÃO: Esta condição especial encerra em:{" "}
+          <span className="text-yellow-300">02h 14m 37s</span>
           <br />
-          02h 14m 37s
-        </h1>
-        <div className="elfsight-app-5ec11640-937d-4210-861e-606ffc6d1a89"></div>
-        <h1 className="text-center text-white font-medium text-title2 mt-4 font-secondFont">
           Garanta agora antes que expire.
         </h1>
+        <div className="elfsight-app-5ec11640-937d-4210-861e-606ffc6d1a89"></div>
       </SectionWrapper>
     </SectionArea>
   );
