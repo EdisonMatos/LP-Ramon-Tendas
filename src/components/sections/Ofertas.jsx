@@ -93,9 +93,7 @@ function Ofertas() {
           />
         </div>
         <h1 className="text-center text-white font-medium text-paragraph3 tablet1:text-title2 mb-4 font-secondFont">
-          ⚠️ ATENÇÃO: Esta condição especial encerra em:{" "}
-          <span className="text-yellow-300">02h 14m 37s</span>
-          <br />
+          ⚠️ ATENÇÃO: Esta condição especial encerra em breve <br />
           Garanta agora antes que expire.
         </h1>
         <div className="flex gap-2 font-secondFont items-center text-white text-xl font-bold">
