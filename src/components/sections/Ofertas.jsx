@@ -9,6 +9,7 @@ import { Carousel } from "primereact/carousel";
 import "../../index.css";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 function AnimatedUnit({ value }) {
   return (
@@ -80,39 +81,45 @@ function Ofertas() {
           className="text-center"
         />
 
-        <div className="w-full max-w-[1000px] mb-6">
-          <Carousel
-            value={ofertas}
-            numScroll={1}
-            numVisible={1}
-            responsiveOptions={responsiveOptions}
-            A
-            itemTemplate={productTemplate}
-            circular
-            autoplayInterval={5000}
-          />
-        </div>
-        <h1 className="text-center text-white font-medium text-paragraph3 tablet1:text-title2 mb-4 font-secondFont">
-          ⚠️ ATENÇÃO: Esta condição especial encerra em breve <br />
-          Garanta agora antes que expire.
-        </h1>
-        <div className="flex gap-2 font-secondFont items-center text-white text-xl font-bold">
-          <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
-            <AnimatedUnit value={hours} />
+        <MotionDivDownToUp>
+          <div className="w-full max-w-[1000px] mb-6">
+            <Carousel
+              value={ofertas}
+              numScroll={1}
+              numVisible={1}
+              responsiveOptions={responsiveOptions}
+              A
+              itemTemplate={productTemplate}
+              circular
+              autoplayInterval={5000}
+            />
           </div>
+        </MotionDivDownToUp>
+        <MotionDivDownToUp
+          className={`flex flex-col justify-center items-center`}
+        >
+          <h1 className="text-center text-white font-medium text-paragraph3 tablet1:text-title2 mb-4 font-secondFont">
+            ⚠️ ATENÇÃO: Esta condição especial encerra em breve <br />
+            Garanta agora antes que expire.
+          </h1>
+          <div className="flex gap-2 font-secondFont items-center text-white text-xl font-bold">
+            <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
+              <AnimatedUnit value={hours} />
+            </div>
 
-          <span>:</span>
+            <span>:</span>
 
-          <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
-            <AnimatedUnit value={minutes} />
+            <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
+              <AnimatedUnit value={minutes} />
+            </div>
+
+            <span>:</span>
+
+            <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
+              <AnimatedUnit value={seconds} />
+            </div>
           </div>
-
-          <span>:</span>
-
-          <div className="p-2 bg-white rounded-sm text-black w-[50px] flex justify-center">
-            <AnimatedUnit value={seconds} />
-          </div>
-        </div>
+        </MotionDivDownToUp>
         {/* <div className="flex gap-2 font-mainFont items-center">
           <h1 className="p-2 bg-white rounded-sm font-medium w-[50px]">
             {String(hours).padStart(2, "0")}h
